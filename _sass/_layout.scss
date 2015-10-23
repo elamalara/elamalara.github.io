@@ -59,6 +59,9 @@
     height: 80vh;
     margin: 2vh 5vw;
     background-color: #300;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     display: inline-block;
     overflow: hidden;
     text-align: center;
