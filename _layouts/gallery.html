@@ -16,8 +16,8 @@
         {{ content }}
 
       <article id="description">
-        <p id="descriptionParagraph">This will contain description of the image you see above it. This text won't move.</p>
-        <p>New paragraphs will fade in as old paragraphs fade out. <a href="#" class="next">Hey</a></p>
+        <p id="titleParagraph">This will contain description of the image you see above it. This text won't move.</p>
+        <p id="descriptionParagraph">New paragraphs will fade in as old paragraphs fade out.</p>
       </article>
 
       <a class="navigation previous" href="#"> </a>
@@ -59,7 +59,7 @@
         var elementDescription = elementParent.children('span').html();
         $('#description').stop().fadeOut(300).fadeIn(300);
         setTimeout(function() {
-          $('#descriptionParagraph').html(elementDescription);
+          $('#titleParagraph').html(elementDescription);
         }, 300);
       }
     });
