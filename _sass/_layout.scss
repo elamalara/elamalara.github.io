@@ -51,12 +51,12 @@
     height: 10vh;
     position: fixed;
     bottom: 0;
-    background-color: #a10115;
+    background-color: #2f3131;
     transition: background-color 0.3s ease;
     display: block;
 }
 .navigation:hover {
-    background-color: #d72c16;
+    background-color: #426e86;
 }
 .previous {
     left: 0;
@@ -73,13 +73,14 @@
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
+    font-family: 'Josefin Sans', verdana, sans-serif;
 }
 
 .galleryPage>section {
     width: 80vw;
     height: 80vh;
     margin: 2vh 5vw;
-    background-color: #e0dfda;
+    background-color: #f8f1e5;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,11 +97,12 @@
     width: 80vw;
     height: 10vh;
     margin: 0vh 5vw;
-    color: #301b28;
+    color: #2f3131;
     text-align: center;
     position: fixed;
     bottom: 2em;
     vertical-align: bottom;
+    font-size: large;
 }
 
 .galleryPage img {
