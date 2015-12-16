@@ -52,10 +52,6 @@
     -webkit-overflow-scrolling: touch;
 }
 
-.galleryPage>article:first-of-type {
-    height: 55vh;
-}
-
 .galleryPage>article {
     width: auto;
     height: 100vh;
@@ -68,6 +64,17 @@
     @include media-query($on-palm) {
         max-width: 90vw;
     }
+}
+
+.galleryPage>article#introduction {
+    height: auto;
+    margin-top: 50px;
+}
+
+.galleryPage>article#introduction>section {
+    position: relative;
+    margin: 70px 5vh 3em 5vh;
+    float: right;
 }
 
 .galleryPage>article>figure {
