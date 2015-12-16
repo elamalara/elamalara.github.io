@@ -46,27 +46,30 @@
 
 /** Gallery */
 
-.site-navigation {
+#siteNavigation {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     height: 50px;
+    z-index: 2;
+    background-color: #fff;
 }
-.site-navigation>ul {
+#siteNavigation>ul {
     list-style: none;
     margin-left: 0;
 }
-.site-navigation>ul>li {
+#siteNavigation>ul>li {
     display: inline-block;
     margin-left: 1em;
 }
 
-.navigation {
+.tapNavigation {
+    z-index: 3;
     height: 15vh;
     position: fixed;
-    left: 50px;
-    right: 0;
+    left: 0;
+    right: 50px;
     font-size: 20px;
     font-weight: bold;
     vertical-align: middle;
@@ -99,7 +102,7 @@ a:hover {
 .galleryPage>article {
     width: auto;
     height: 100vh;
-    margin: 0 0 0 50px;
+    margin: 0 50px 0 0;
     padding: 0;
     display: block;
     overflow: hidden;
@@ -155,21 +158,22 @@ a:hover {
     font-weight: bold;
 }
 
-.galleryPage>nav {
+#thumbnailNavigation {
     position: fixed;
-    top: 2rem;
+    top: 50px;
     bottom: 0;
-    left: 0;
+    right: 0;
     width: 50px;
-    background-color: #beb;
+    border-left: 1px solid #d1d3cc;
+    z-index: 1;
 }
 
-.galleryPage>nav>ul {
+#thumbnailNavigation>ul {
     list-style: none;
     margin-left: 0;
 }
 
-.galleryPage>nav>ul>li {
+#thumbnailNavigation>ul>li {
     height: 50px;
     width: 50px;
     background-color: #edede4;
@@ -178,7 +182,7 @@ a:hover {
     background-position: center;
 }
 
-.galleryPage>nav>ul>li>a {
+#thumbnailNavigation>ul>li>a {
     height: 50px;
     width: 50px;
     display: block;

@@ -7,7 +7,7 @@
 
       {% assign category = site.data.categories[page.category] %}
 
-      <header class="site-navigation">
+      <nav id="siteNavigation">
         <ul>
           <li ><a href="{{ site.url }}">Elizabeth MALARA</a></li>
           {% for availableCategory in site.data.categories %}
@@ -15,15 +15,15 @@
           {% endfor %}
           <li >Browsing {{ category.title }}</li>
         </ul>
-      </header>
+      </nav>
 
-      <nav>
+      <div id="thumbnailNavigation">
         <ul>
         {% for art in category.pieces %}
-          <li style="background-image: url({{ art.url | prepend: site.baseurl }});" > <a href="{{ art.internal }}"></a> </li>
+          <li style="background-image: url({{ art.url | prepend: site.baseurl }});" > <a href="#{{ art.internal }}"></a> </li>
         {% endfor %}
         </ul>
-      </nav>
+      </div>
 
       {{ content }}
 
@@ -33,8 +33,8 @@
 
       {% endfor %}
 
-      <a class="navigation previous" href="#">&lt;</a>
-      <a class="navigation next" href="#">&gt;</a>
+      <a class="tapNavigation previous" href="#">&lt;</a>
+      <a class="tapNavigation next" href="#">&gt;</a>
   </body>
 
   <script>
@@ -44,13 +44,13 @@
 
     function getCurrentElement() {
       var currentPosition = $('html').scrollTop();
-      var elementHeight = $('.galleryPage>nav').height();
+      var elementHeight = $('#thumbnailNavigation').height() + 50;
       console.log(currentPosition + "; " + (currentPosition + elementHeight * 0.5) + " / " + elementHeight + " = " + Math.floor((currentPosition + elementHeight * 0.5) / elementHeight));
       return Math.floor((currentPosition + elementHeight * 0.5) / elementHeight);
     }
 
     function getElementY(index) {
-      var elementHeight = $('.galleryPage>nav').height();
+      var elementHeight = $('#thumbnailNavigation').height() + 50;
       return index * elementHeight;
     }
 
@@ -59,7 +59,7 @@
       if (newElement != currentElement)
       {
         currentElement = newElement;
-        var elementParent = $( '.galleryPage>nav>ul>li').eq(newElement);
+        var elementParent = $( '#thumbnailNavigation>ul>li').eq(newElement);
         //var elementDescription = elementParent.children('section').html();
         elementParent.stop().fadeOut(300).fadeIn(300);
         setTimeout(function() {
@@ -79,19 +79,33 @@
 
     $('.previous').click(function(e){
       e.preventDefault();
-      var href = '#i' + (getCurrentElement() + 1 - 1);
+      var id = getCurrentElement() - 1;
+      console.log(id);
+      var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
+      console.log(thumb);
+      var link = thumb.find('a');
+      console.log(link);
+      var href = link.attr('href');
+      console.log(href);
       scrollToElement(href);
       return false;
     });
 
     $('.next').click(function(e){
       e.preventDefault();
-      var href = '#i' + (getCurrentElement() + 1 + 1);
+      var id = getCurrentElement() + 1;
+      console.log(id);
+      var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
+      console.log(thumb);
+      var link = thumb.find('a');
+      console.log(link);
+      var href = link.attr('href');
+      console.log(href);
       scrollToElement(href);
       return false;
     });
 
-    $('nav a').click(function(e){
+    $('#thumbnailNavigation a').click(function(e){
       e.preventDefault();
       var href = $.attr(this, 'href');
       scrollToElement(href);
