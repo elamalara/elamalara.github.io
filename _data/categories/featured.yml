@@ -1,5 +1,6 @@
 internal: featured
-title: Welcome
+title: Featured
+hideinmenu: true
 pieces:
 - internal: flowers-in-white-pot
   title: Flowers in white pot

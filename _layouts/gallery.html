@@ -11,7 +11,9 @@
         <ul>
           <li ><a href="{{ site.url }}">Elizabeth MALARA</a></li>
           {% for availableCategory in site.data.categories %}
+            {% unless availableCategory.[1].hideinmenu %}
             <li ><a href="/{{ availableCategory.[1].internal | prepend: site.baseurl }}">{{ availableCategory.[1].title }}</a></li>
+            {% endunless %}
           {% endfor %}
           <li >Browsing {{ category.title }}</li>
         </ul>
