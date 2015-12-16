@@ -48,8 +48,10 @@
 
       {% for art in category.pieces %}
           {% if art.absoluteurl %}
+          Absolute URL given {{ art }} 
             {% capture image-url %}{{ art.absoluteurl }}{% endcapture %}
           {% else %}
+          Regular URL given {{ art }} <b>/images/{{category.internal}}/{{ art.url }}</b>
             {% capture image-url %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
           {% endif %}
       <a id="{{ art.internal }}"></a>
