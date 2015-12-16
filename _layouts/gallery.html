@@ -6,19 +6,21 @@
   <body class="galleryPage">
       <nav>
         <ul>
-        <li>i1</li>
-        <li>i2</li>
-        <li>i3</li>
-        <li>i4</li>
-        <li>i5</li>
-        <li>i6</li>
+        <li style="background-image: url({{ "/images/peacock.jpg" | prepend: site.baseurl }});" > <a href="#i1"></a> </li>
+        <li style="background-image: url({{ "/images/ela.jpg" | prepend: site.baseurl }});" > <a href="#i2"></a> </li>
+        <li style="background-image: url({{ "/images/kayak.jpg" | prepend: site.baseurl }});" > <a href="#i3"></a> </li>
+        <li style="background-image: url({{ "/images/chicago.jpg" | prepend: site.baseurl }});" > <a href="#i4"></a> </li>
         </ul>
       </nav>
 
-      <article> <figure style="background-image: url({{ "/images/peacock.jpg" | prepend: site.baseurl }});" ></figure> <section><h3>Picture of a peacock</h3><p>This will contain description of the image you see above it</p></section></article>
-      <article> <figure style="background-image: url({{ "/images/ela.jpg" | prepend: site.baseurl }});" ></figure>     <section><h3>Ela</h3><p>This will contain description of the image you see above it</p></section>  </article>
-      <article> <figure style="background-image: url({{ "/images/kayak.jpg" | prepend: site.baseurl }});" ></figure>   <section><h3>Kayaking in Ontario</h3><p>This will contain description of the image you see above it</p></section> </article>
-      <article> <figure style="background-image: url({{ "/images/chicago.jpg" | prepend: site.baseurl }});" ></figure> <section><h3>A trip to Chicago</h3><p>This will contain description of the image you see above it</p></section> </article>
+      <a id="i1"></a>
+      <article> <figure style="background-image: url({{ "/images/peacock.jpg" | prepend: site.baseurl }});" ><img src="{{ "/images/peacock.jpg" | prepend: site.baseurl }}" /></figure> <section><h3>Picture of a peacock</h3><p>This will contain description of the image you see above it</p></section></article>
+      <a id="i2"></a>
+      <article> <figure style="background-image: url({{ "/images/ela.jpg" | prepend: site.baseurl }});" ><img src="{{ "/images/ela.jpg" | prepend: site.baseurl }}" /></figure>     <section><h3>Ela</h3><p>This will contain description of the image you see above it</p></section>  </article>
+      <a id="i3"></a>
+      <article> <figure style="background-image: url({{ "/images/kayak.jpg" | prepend: site.baseurl }});" ><img src="{{ "/images/kayak.jpg" | prepend: site.baseurl }}" /></figure>   <section><h3>Kayaking in Ontario</h3><p>This will contain description of the image you see above it</p></section> </article>
+      <a id="i4"></a>
+      <article> <figure style="background-image: url({{ "/images/chicago.jpg" | prepend: site.baseurl }});" ><img src="{{ "/images/chicago.jpg" | prepend: site.baseurl }}" /></figure> <section><h3>A trip to Chicago</h3><p>This will contain description of the image you see above it</p></section> </article>
         {{ content }}
 
       <a class="navigation previous" href="#">&lt;</a>
@@ -33,7 +35,7 @@
     function getCurrentElement() {
       var currentPosition = $('html').scrollTop();
       var elementHeight = $('.galleryPage>nav').height();
-      console.log(currentPosition + ", " + elementHeight + ", " + (currentPosition + elementHeight * 0.75));
+      console.log(currentPosition + "; " + (currentPosition + elementHeight * 0.5) + " / " + elementHeight + " = " + Math.floor((currentPosition + elementHeight * 0.5) / elementHeight));
       return Math.floor((currentPosition + elementHeight * 0.5) / elementHeight);
     }
 
@@ -56,18 +58,34 @@
       }
     });
 
+    function scrollToElement(href) {
+      console.log(href);
+      $('html, body').stop().animate({
+          scrollTop: $( href ).offset().top
+      }, 600, function () {
+        window.location.hash = href;
+      });
+    }
+
     $('.previous').click(function(e){
       e.preventDefault();
-      $('html, body').stop().animate({
-          scrollTop: getElementY(getCurrentElement() - 1)
-      }, 600);
+      var href = '#i' + (getCurrentElement() + 1 - 1);
+      scrollToElement(href);
+      return false;
     });
 
     $('.next').click(function(e){
       e.preventDefault();
-      $('html, body').stop().animate({
-          scrollTop: getElementY(getCurrentElement() + 1)
-      }, 600);
+      var href = '#i' + (getCurrentElement() + 1 + 1);
+      scrollToElement(href);
+      return false;
+    });
+
+    $('nav a').click(function(e){
+      e.preventDefault();
+      var href = $.attr(this, 'href');
+      scrollToElement(href);
+      return false;
     });
 
   });
