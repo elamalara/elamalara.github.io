@@ -47,10 +47,10 @@
 /** Gallery */
 
 .navigation {
-    width: 25vw;
-    height: 90vh;
+    height: 5vh;
     position: fixed;
-    top: 0;
+    left: 0;
+    right: 0;
     font-size: 20px;
     font-weight: bold;
     vertical-align: middle;
@@ -58,70 +58,82 @@
     color: rgba(222, 222, 222, 0.5);
     transition: color 0.3s ease;
     display: block;
+    text-align: center;
 }
 .navigation:hover {
     color: rgba(222, 222, 222, 1);
 }
 .previous {
-    left: 0;
+    top: 0;
 }
 .next {
-    right: 0;
-    text-align: right;
+    bottom: 0;
 }
 
 .galleryPage {
-    background-color: #f0efea;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    background-color: #edede4;
+    overflow-x: hidden;
+    overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
     white-space: nowrap;
     font-family: 'Josefin Sans', verdana, sans-serif;
 }
 
-.galleryPage>section {
-    width: 80vw;
-    height: 80vh;
-    margin: 2vh 5vw;
-    background-color: #f8f1e5;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    display: inline-block;
+.galleryPage>article {
+    width: auto;
+    height: 100vh;
+    margin: 0 0 0 50px;
+    padding: 0;
+    display: block;
     overflow: hidden;
     text-align: center;
     position: relative;
 }
-.galleryPage>section>span {
-    display: none;
+
+.galleryPage>article>figure {
+    background-color: #edede4;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5vh;
+    display: block;
 }
 
-.galleryPage>article {
-    width: 80vw;
+.galleryPage>article>img {
+    /*background-color: #e0dfda;*/
+    object-fit: contain;
+    width: 100%;
+    height: 70vh;
+    margin-top: 5vh;
+}
+
+.galleryPage>article>section {
+    width: auto;
     height: 10vh;
-    margin: 0vh 5vw;
+    margin: 5vh 5vw 5vh 25vw;
+    padding: 1em;
     color: #2f3131;
-    text-align: center;
-    position: fixed;
-    bottom: 2em;
+    text-align: right;
     vertical-align: bottom;
     font-size: large;
-}
-
-.galleryPage img {
-    background-color: #e0dfda;
-    object-fit: contain;
-    bottom: 10vh;
-    top: 0;
-    right: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+    border: 1px solid;
+    border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
+    background-color: #f1f0e7
 }
 
 #titleParagraph {
     font-weight: bold;
+}
+
+.galleryPage>nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    background-color: #beb;
 }
 
 /**

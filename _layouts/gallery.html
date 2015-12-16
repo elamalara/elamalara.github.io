@@ -4,21 +4,22 @@
   {% include head.html %}
 
   <body class="galleryPage">
+      <nav>
+        <ul>
+        <li>i1</li>
+        <li>i2</li>
+        <li>i3</li>
+        <li>i4</li>
+        <li>i5</li>
+        <li>i6</li>
+        </ul>
+      </nav>
 
-      <section style="background-image: url({{ "/images/peacock.jpg" | prepend: site.baseurl }});"> <span>Picture of a peacock</span></section>
-      <section style="background-image: url({{ "/images/ela.jpg" | prepend: site.baseurl }});">     <span>Ela</span> </section>
-      <section style="background-image: url({{ "/images/kayak.jpg" | prepend: site.baseurl }});">   <span>Kayaking in Ontario</span> </section>
-      <section style="background-image: url({{ "/images/chicago.jpg" | prepend: site.baseurl }});"> <span>A trip to Chicago</span> </section>
-      <section> <img src="{{ "/images/peacock.jpg" | prepend: site.baseurl }}"/> <span>Picture of a peacock</span></section>
-      <section> <img src="{{ "/images/ela.jpg" | prepend: site.baseurl }}"/>     <span>Ela</span> </section>
-      <section> <img src="{{ "/images/kayak.jpg" | prepend: site.baseurl }}"/>   <span>Kayaking in Ontario</span> </section>
-      <section> <img src="{{ "/images/chicago.jpg" | prepend: site.baseurl }}"/> <span>A trip to Chicago</span> </section>
+      <article> <figure style="background-image: url({{ "/images/peacock.jpg" | prepend: site.baseurl }});" ></figure> <section><h3>Picture of a peacock</h3><p>This will contain description of the image you see above it</p></section></article>
+      <article> <figure style="background-image: url({{ "/images/ela.jpg" | prepend: site.baseurl }});" ></figure>     <section><h3>Ela</h3><p>This will contain description of the image you see above it</p></section>  </article>
+      <article> <figure style="background-image: url({{ "/images/kayak.jpg" | prepend: site.baseurl }});" ></figure>   <section><h3>Kayaking in Ontario</h3><p>This will contain description of the image you see above it</p></section> </article>
+      <article> <figure style="background-image: url({{ "/images/chicago.jpg" | prepend: site.baseurl }});" ></figure> <section><h3>A trip to Chicago</h3><p>This will contain description of the image you see above it</p></section> </article>
         {{ content }}
-
-      <article id="description">
-        <p id="titleParagraph">This will contain description of the image you see above it. This text won't move.</p>
-        <p id="descriptionParagraph">New paragraphs will fade in as old paragraphs fade out.</p>
-      </article>
 
       <a class="navigation previous" href="#">&lt;</a>
       <a class="navigation next" href="#">&gt;</a>
@@ -27,27 +28,18 @@
   <script>
   $(function() {
 
-    $('html, body').mousewheel(function(e, delta) {
-      if( Math.abs(e.deltaX) ) {
-        return
-      } else {
-        this.scrollLeft -= (e.deltaY * 150);
-      }
-      e.preventDefault();
-    });
-
     var currentElement = -1;
 
     function getCurrentElement() {
-      var currentPosition = $('html').scrollLeft();
-      var elementWidth = $('html').width() * 0.9;
-      console.log(currentPosition + ", " + elementWidth + ", " + elementWidth * 2);
-      return Math.floor((currentPosition + elementWidth * 0.5) / elementWidth);
+      var currentPosition = $('html').scrollTop();
+      var elementHeight = $('.galleryPage>nav').height();
+      console.log(currentPosition + ", " + elementHeight + ", " + (currentPosition + elementHeight * 0.75));
+      return Math.floor((currentPosition + elementHeight * 0.5) / elementHeight);
     }
 
-    function getElementX(index) {
-      var elementWidth = $('html').width() * 0.9;
-      return index * elementWidth;
+    function getElementY(index) {
+      var elementHeight = $('.galleryPage>nav').height();
+      return index * elementHeight;
     }
 
     $(window).scroll(function(e) {
@@ -55,11 +47,11 @@
       if (newElement != currentElement)
       {
         currentElement = newElement;
-        var elementParent = $( '.galleryPage>section').eq(newElement);
-        var elementDescription = elementParent.children('span').html();
-        $('#description').stop().fadeOut(300).fadeIn(300);
+        var elementParent = $( '.galleryPage>nav>ul>li').eq(newElement);
+        //var elementDescription = elementParent.children('section').html();
+        elementParent.stop().fadeOut(300).fadeIn(300);
         setTimeout(function() {
-          $('#titleParagraph').html(elementDescription);
+          elementParent.css('background: red;');
         }, 300);
       }
     });
@@ -67,14 +59,14 @@
     $('.previous').click(function(e){
       e.preventDefault();
       $('html, body').stop().animate({
-          scrollLeft: getElementX(getCurrentElement() - 1)
+          scrollTop: getElementY(getCurrentElement() - 1)
       }, 600);
     });
 
     $('.next').click(function(e){
       e.preventDefault();
       $('html, body').stop().animate({
-          scrollLeft: getElementX(getCurrentElement() + 1)
+          scrollTop: getElementY(getCurrentElement() + 1)
       }, 600);
     });
 
