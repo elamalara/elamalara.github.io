@@ -1,0 +1,7 @@
+internal: watercolor
+title: Watercolor
+pieces:
+- internal: chicago
+  title: A trip to Chicago
+  description: At a road trip to Chicago, IL
+  url: "/images/chicago.jpg"

@@ -1,0 +1,11 @@
+internal: oil
+title: Oil
+pieces:
+- internal: ela
+  title: Ela
+  description: Elizabeth Malara Wieczorek is the author of art on this website
+  url: "/images/ela.jpg"
+- internal: peacocok
+  title: White Peacock
+  description: White Peacock from a petting zoo in Waterloo, Ontario
+  url: "/images/peacock.jpg"

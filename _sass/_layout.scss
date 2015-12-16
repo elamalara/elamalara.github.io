@@ -46,8 +46,24 @@
 
 /** Gallery */
 
+.site-navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+.site-navigation>ul {
+    list-style: none;
+    margin-left: 0;
+}
+.site-navigation>ul>li {
+    display: inline-block;
+    margin-left: 1em;
+}
+
 .navigation {
-    height: 5vh;
+    height: 15vh;
     position: fixed;
     left: 50px;
     right: 0;
@@ -66,7 +82,7 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 .previous {
-    top: 0;
+    top: 50px;
 }
 .next {
     bottom: 0;
@@ -141,7 +157,7 @@ a:hover {
 
 .galleryPage>nav {
     position: fixed;
-    top: 0;
+    top: 2rem;
     bottom: 0;
     left: 0;
     width: 50px;
