@@ -32,9 +32,9 @@
           {% if art.absoluteurl %}
             {% capture imageurl %}{{ art.absoluteurl }}{% endcapture %}
           {% else %}
-            {% capture imageurl %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
+            {% capture imageurl %}images/{{category.internal}}/{{ art.url }}{% endcapture %}
           {% endif %}
-          <li style="background-image: url('{{ imageurl | prepend: site.baseurl }}');" > <a href="#{{ art.internal }}"></a> </li>
+          <li style="background-image: url('/thumbs/{{ imageurl | prepend: site.baseurl }}');" > <a href="#{{ art.internal }}"></a> </li>
         {% endfor %}
         </ul>
       </div>
