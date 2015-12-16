@@ -56,11 +56,11 @@
             {% capture image-url %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
           {% endif %}
       <a id="{{ art.internal }}"></a>
-      <article> <figure style="background-image: url('{{ image-url }}');" ><img src=" {{ image-url }}" /></figure> <section><h3>{{ art.title }}</h3><p>
+      <article> <figure style="background-image: url('{{ testing }}');" ><img src=" {{ testing }}" /></figure> <section><h3>{{ art.title }}</h3><p>
       {% if art.description != 'Please write a brief description.' %}
         {{ art.description }}
       {% endif %}
-      {{ image-url }}
+      {{ testing }}
       </p></section></article>
 
       {% endfor %}
