@@ -10,8 +10,8 @@ pieces:
   description: Please write a brief description.
   url: "darek.jpg"
 - internal: gros-ile-irish-emigrants
-  title: Irish Emmigrants
-  description: Irish Emigrants either on or from Gros Ile (please correct me)
+  title: Irish immigrants on Grosse Île
+  description: Irish immigrants landing on Grosse Île
   url: "gros-ile-irish-emigrants.jpg"
 - internal: interior-of-irish-hut-19-century
   title: Interior of Irish hut in 19th century
@@ -26,23 +26,23 @@ pieces:
   description: Please write a brief description.
   url: "mill.jpg"
 - internal: mrs-carol
-  title: Mrs Carol
+  title: Mrs. Carol
   description: Please write a brief description.
   url: "mrs-carol.jpg"
 - internal: mrs-ela
-  title: Mrs Ela
+  title: Mrs. Ela
   description: Please write a brief description.
   url: "mrs-ela.jpg"
 - internal: mrs-kay
-  title: Mrs Kay
+  title: Mrs. Kay
   description: Please write a brief description.
   url: "mrs-kay.jpg"
 - internal: mrs-lidia
-  title: Mrs Lidia
+  title: Mrs. Lidia
   description: Please write a brief description.
   url: "mrs-lidia.jpg"
 - internal: mrs-lucy
-  title: Mrs Lucy
+  title: Mrs. Lucy
   description: Please write a brief description.
   url: "mrs-lucy.jpg"
 - internal: muff-pollys-dog
