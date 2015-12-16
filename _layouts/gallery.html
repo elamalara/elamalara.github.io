@@ -108,6 +108,8 @@
     $('.previous').click(function(e){
       e.preventDefault();
       var id = getCurrentElement() - 1;
+      if (id < 0)
+        return;
       console.log(id);
       var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
       console.log(thumb);
@@ -123,6 +125,8 @@
       e.preventDefault();
       var id = getCurrentElement() + 1;
       console.log(id);
+      if (id >= $( '#thumbnailNavigation>ul>li').length)
+        id = 0;
       var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
       console.log(thumb);
       var link = thumb.find('a');
