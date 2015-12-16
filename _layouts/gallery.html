@@ -34,34 +34,29 @@
           {% else %}
             {% capture imageurl %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
           {% endif %}
-          <li style="background-image: url('{{ imageurl }}');" > <a href="#{{ art.internal }}"></a> </li>
+          <li style="background-image: url('{{ imageurl | prepend: site.baseurl }}');" > <a href="#{{ art.internal }}"></a> </li>
         {% endfor %}
         </ul>
       </div>
 
-    {% capture testing %}Ahh just debugging{% endcapture %}
       <article>
         <section>
           <h3>{{ category.title }}</h3>
-          {{ testing }}
+          {{ content }}
         </section>
       </article>
 
       {% for art in category.pieces %}
           {% if art.absoluteurl %}
-          Absolute URL given {{ art }} 
             {% capture imageurl %}{{ art.absoluteurl }}{% endcapture %}
           {% else %}
-          Regular URL given {{ art }} <b>/images/{{category.internal}}/{{ art.url }}</b>
             {% capture imageurl %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
-            <strong>{{ imageurl }}</strong>
           {% endif %}
       <a id="{{ art.internal }}"></a>
-      <article> <figure style="background-image: url('{{ imageurl }}');" ><img src=" {{ imageurl }}" /></figure> <section><h3>{{ art.title }}</h3><p>
+      <article> <figure style="background-image: url('{{ imageurl | prepend: site.baseurl }}');" ><img src=" {{ imageurl | prepend: site.baseurl }}" /></figure> <section><h3>{{ art.title }}</h3><p>
       {% if art.description != 'Please write a brief description.' %}
         {{ art.description }}
       {% endif %}
-      {{ testing }}
       </p></section></article>
 
       {% endfor %}
