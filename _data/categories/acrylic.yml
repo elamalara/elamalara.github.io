@@ -1,0 +1,39 @@
+internal: acrylic
+title: Acrylic
+pieces:
+- internal: blue-bird-i
+  title: Blue Bird I
+  description: Please write a brief description.
+  url: "blue-bird-i.jpg"
+- internal: bluebirds-ii
+  title: Blue Bird II
+  description: Please write a brief description.
+  url: "bluebirds-ii.jpg"
+- internal: eugenia-fall-in-winter
+  title: Eugenia Fall in Winter
+  description: Please write a brief description.
+  url: "eugenia-fall-in-winter.jpg"
+- internal: evening-on-the-escarpment-in-beaver-valley
+  title: Evening on the escaprmpent in Beaver Valley
+  description: Please write a brief description.
+  url: "evening-on-the-escarpment-in-beaver-valley.jpg"
+- internal: lilies
+  title: Lilies
+  description: Please write a brief description.
+  url: "lilies.jpg"
+- internal: red-house-in-beaver-valley-iii
+  title: Red house in Beaver Valley III
+  description: Please write a brief description.
+  url: "red-house-in-beaver-valley-iii.jpg"
+- internal: the-farm-in-autumn
+  title: The farm in Autumn
+  description: Please write a brief description.
+  url: "the-farm-in-autumn.jpg"
+- internal: white-peacock-in-sepia
+  title: White peacock in sepia
+  description: Please write a brief description.
+  url: "white-peacock-in-sepia.jpg"
+- internal: white-peacock-in-the-gray
+  title: White peacock in the gray
+  description: Please write a brief description.
+  url: "white-peacock-in-the-gray.jpg"

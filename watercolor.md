@@ -5,4 +5,4 @@ permalink: /watercolor/
 category: watercolor
 ---
 
-<div class="foreword" > Hey! Here's a couple sentences about watercolor painting. It seems to be very difficult to master, but Ela has definitely figured it out. </div>
+<div class="foreword" > Watercolor allows me to immerse myself completely in the painting, because it requires the totally undivided attention to combine the randomness of the game of flowing hue and tint with a perfect grasp of unique paint effects that are melted on the virgin paper. </div>
