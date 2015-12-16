@@ -75,6 +75,9 @@
     position: static;
     margin: 3em 5vw;
     float: right;
+    @include media-query($on-palm) {
+        margin: 1em 2em;
+    }
 }
 
 .galleryPage>article#introduction>section>p {
@@ -124,7 +127,9 @@
     right: 0;
     bottom: 5vh;
     @include media-query($on-palm) {
-        min-width: 4em;
+        min-width: 40vw;
+        margin: 0.5em 1em;
+        padding: 0.4em 0.5em 0.4em 1em;
     }
 }
 
@@ -195,8 +200,8 @@
     border-bottom: 1px solid #d1d3cc;
     font-size: 18px;
     @include media-query($on-palm) {
-        font-size: 14px;
-        height: 35px;
+        font-size: 12px;
+        height: 30px;
     }
 }
 
@@ -221,6 +226,7 @@
     height: 33px;
     @include media-query($on-palm) {
         padding: 8px 0.2em;
+        height: 23px;
     }
 }
 #siteNavigation>ul>li>a:hover {
@@ -232,7 +238,7 @@
     font-weight: bold;
     margin-left: 50px;
     @include media-query($on-palm) {
-        margin-left: 10px;
+        margin-left: 0;
     }
 }
 
