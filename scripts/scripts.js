@@ -4,6 +4,8 @@ var currentElement = -1;
 
 function getCurrentElement() {
   var currentPosition = $('html').scrollTop();
+  if (currentPosition == 0) // this seems to happen in chrome
+  	currentPosition = $('body').scrollTop();
   var elementHeight = $('#thumbnailNavigation').height() + 50;
   console.log(currentPosition + "; " + (currentPosition + elementHeight * 0.5) + " / " + elementHeight + " = " + Math.floor((currentPosition + elementHeight * 0.5) / elementHeight));
   return Math.floor((currentPosition) / elementHeight); // add one to acommodate for the intro
