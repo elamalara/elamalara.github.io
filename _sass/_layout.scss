@@ -133,12 +133,23 @@
 }
 
 #thumbnailNavigation>ul>li {
-    height: 50px;
-    width: 50px;
+    height: 46px;
+    width: 46px;
     background-color: #edede4;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    border-left: 2px solid $background-color;
+    transition: border 0.3s;
+    margin: 1px;
+}
+
+#thumbnailNavigation>ul>li:hover {
+    border-left: 2px solid $link-color-hover;
+}
+
+#thumbnailNavigation>ul>li.active {
+    border-left: 2px solid $link-color-active;
 }
 
 #thumbnailNavigation>ul>li>a {

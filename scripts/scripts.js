@@ -18,12 +18,12 @@ $(window).scroll(function(e) {
   var newElement = getCurrentElement();
   if (newElement != currentElement)
   {
+  	var oldElementParent = $( '#thumbnailNavigation>ul>li').eq(currentElement);
     currentElement = newElement;
-    var elementParent = $( '#thumbnailNavigation>ul>li').eq(newElement);
-    elementParent.stop().fadeOut(300).fadeIn(300);
-    setTimeout(function() {
-      elementParent.css('background: red;');
-    }, 300);
+    var elementParent = $( '#thumbnailNavigation>ul>li').eq(currentElement);
+
+    oldElementParent.removeClass("active");
+    elementParent.addClass("active");
   }
 });
 
