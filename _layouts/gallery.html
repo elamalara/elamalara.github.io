@@ -34,7 +34,7 @@
           {% else %}
             {% capture image-url %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
           {% endif %}
-          <li style="background-image: url('/images/oil/beaver-valley-in-winter.jpg');" > <a href="#{{ art.internal }}"></a> </li>
+          <li style="background-image: url('{{ image-url }}');" > <a href="#{{ art.internal }}"></a> </li>
         {% endfor %}
         </ul>
       </div>
@@ -55,10 +55,11 @@
             {% capture image-url %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
           {% endif %}
       <a id="{{ art.internal }}"></a>
-      <article> <figure style="background-image: url('/images/oil/beaver-valley-in-winter.jpg');" ><img src=" /images/oil/beaver-valley-in-winter.jpg" /></figure> <section><h3>{{ art.title }}</h3><p>
+      <article> <figure style="background-image: url('{{ image-url }}');" ><img src=" {{ image-url }}" /></figure> <section><h3>{{ art.title }}</h3><p>
       {% if art.description != 'Please write a brief description.' %}
         {{ art.description }}
       {% endif %}
+      {{ image-url }}
       </p></section></article>
 
       {% endfor %}
