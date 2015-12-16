@@ -9,13 +9,20 @@
 
       <nav id="siteNavigation">
         <ul>
-          <li ><a href="{{ site.url }}">Elizabeth MALARA</a></li>
+          <li 
+            {% if category.internal == 'featured' %}
+              class="active"
+            {% endif %}
+            ><a href="{{ site.url }}">Elizabeth MALARA </a></li>
           {% for availableCategory in site.data.categories %}
             {% unless availableCategory.[1].hideinmenu %}
-            <li ><a href="/{{ availableCategory.[1].internal | prepend: site.baseurl }}">{{ availableCategory.[1].title }}</a></li>
+            <li 
+            {% if category.internal == availableCategory.[1].internal %}
+              class="active"
+            {% endif %}
+            ><a href="/{{ availableCategory.[1].internal | prepend: site.baseurl }}">{{ availableCategory.[1].title }}</a></li>
             {% endunless %}
           {% endfor %}
-          <li >Browsing {{ category.title }}</li>
         </ul>
       </nav>
 
@@ -67,7 +74,7 @@
       var currentPosition = $('html').scrollTop();
       var elementHeight = $('#thumbnailNavigation').height() + 50;
       console.log(currentPosition + "; " + (currentPosition + elementHeight * 0.5) + " / " + elementHeight + " = " + Math.floor((currentPosition + elementHeight * 0.5) / elementHeight));
-      return Math.floor((currentPosition + elementHeight * 0.5) / elementHeight) + 1; // add one to acommodate for the intro
+      return Math.floor((currentPosition) / elementHeight); // add one to acommodate for the intro
     }
 
     function getElementY(index) {
