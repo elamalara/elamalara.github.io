@@ -65,6 +65,9 @@
     overflow: hidden;
     text-align: center;
     position: relative;
+    @include media-query($on-palm) {
+        max-width: 90vw;
+    }
 }
 
 .galleryPage>article>figure {
@@ -91,7 +94,6 @@
     padding: 1em 2em 1em 4em;
     text-align: right;
     vertical-align: bottom;
-    font-size: large;
     border: 1px solid;
     border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
     background-color: #f1f0e7;
@@ -101,6 +103,9 @@
     position: absolute;
     right: 0;
     bottom: 5vh;
+    @include media-query($on-palm) {
+        min-width: 4em;
+    }
 }
 
 .galleryPage>article>section>h3 {
@@ -169,6 +174,10 @@
     background-color: #f1f0e7;
     border-bottom: 1px solid #d1d3cc;
     font-size: 18px;
+    @include media-query($on-palm) {
+        font-size: 14px;
+        height: 35px;
+    }
 }
 
 #siteNavigation>ul {
@@ -190,6 +199,9 @@
 #siteNavigation>ul>li>a {
     padding: 8px 0.75em;
     height: 33px;
+    @include media-query($on-palm) {
+        padding: 8px 0.2em;
+    }
 }
 #siteNavigation>ul>li>a:hover {
     border-bottom: 2px solid $link-color-hover;
@@ -199,6 +211,9 @@
 #siteNavigation>ul>li:first-child {
     font-weight: bold;
     margin-left: 50px;
+    @include media-query($on-palm) {
+        margin-left: 10px;
+    }
 }
 
 .tapNavigation {
@@ -207,12 +222,12 @@
     position: fixed;
     left: 0;
     right: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    vertical-align: middle;
     background-color: transparent;
     display: block;
     text-align: center;
+    @include media-query($on-palm) {
+        height: 20vh;
+    }
 }
 
 .previous {
