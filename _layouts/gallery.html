@@ -54,6 +54,7 @@
           {% else %}
           Regular URL given {{ art }} <b>/images/{{category.internal}}/{{ art.url }}</b>
             {% capture image-url %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
+            <strong>{{ image-url }}</strong>
           {% endif %}
       <a id="{{ art.internal }}"></a>
       <article> <figure style="background-image: url('{{ testing }}');" ><img src=" {{ testing }}" /></figure> <section><h3>{{ art.title }}</h3><p>
