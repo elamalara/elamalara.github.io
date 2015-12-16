@@ -93,7 +93,7 @@
     max-width: 15em;
 }
 
-.galleryPage>article>figure {
+.galleryPage>article figure {
     background-color: #edede4;
     background-size: contain;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@
     display: block;
 }
 
-.galleryPage>article>figure>img {
+.galleryPage>article figure>img {
     object-fit: contain;
     display: none;
     width: 100%;

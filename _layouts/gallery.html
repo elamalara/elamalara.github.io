@@ -56,7 +56,7 @@
             {% capture imageurl %}/images/{{category.internal}}/{{ art.url }}{% endcapture %}
           {% endif %}
       <a id="{{ art.internal }}"></a>
-      <article> <figure style="background-image: url('{{ imageurl | prepend: site.baseurl }}');" ><img src=" {{ imageurl | prepend: site.baseurl }}" /></figure> <section><h3>{{ art.title }}</h3><p>
+      <article> <a href=" {{ imageurl | prepend: site.baseurl }}"><figure style="background-image: url('{{ imageurl | prepend: site.baseurl }}');" ><img src=" {{ imageurl | prepend: site.baseurl }}" /></figure></a> <section><h3>{{ art.title }}</h3><p>
       {% if art.description != 'Please write a brief description.' %}
         {{ art.description }}
       {% endif %}
