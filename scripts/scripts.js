@@ -20,7 +20,6 @@ $(window).scroll(function(e) {
   {
     currentElement = newElement;
     var elementParent = $( '#thumbnailNavigation>ul>li').eq(newElement);
-    //var elementDescription = elementParent.children('section').html();
     elementParent.stop().fadeOut(300).fadeIn(300);
     setTimeout(function() {
       elementParent.css('background: red;');
@@ -42,13 +41,9 @@ $('.previous').click(function(e){
   var id = getCurrentElement() - 1;
   if (id < 0)
     return;
-  console.log(id);
   var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
-  console.log(thumb);
   var link = thumb.find('a');
-  console.log(link);
   var href = link.attr('href');
-  console.log(href);
   scrollToElement(href);
   return false;
 });
@@ -56,15 +51,11 @@ $('.previous').click(function(e){
 $('.next').click(function(e){
   e.preventDefault();
   var id = getCurrentElement() + 1;
-  console.log(id);
   if (id >= $( '#thumbnailNavigation>ul>li').length)
     id = 0;
   var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
-  console.log(thumb);
   var link = thumb.find('a');
-  console.log(link);
   var href = link.attr('href');
-  console.log(href);
   scrollToElement(href);
   return false;
 });
