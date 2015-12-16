@@ -6,14 +6,15 @@ function getCurrentElement() {
   var currentPosition = $('html').scrollTop();
   if (currentPosition == 0) // this seems to happen in chrome
   	currentPosition = $('body').scrollTop();
-  var elementHeight = $('#thumbnailNavigation').height() + 50;
-  console.log(currentPosition + "; " + (currentPosition + elementHeight * 0.5) + " / " + elementHeight + " = " + Math.floor((currentPosition + elementHeight * 0.5) / elementHeight));
-  return Math.floor((currentPosition) / elementHeight); // add one to acommodate for the intro
-}
-
-function getElementY(index) {
-  var elementHeight = $('#thumbnailNavigation').height() + 50;
-  return index * elementHeight;
+  var pageHeight = $('#thumbnailNavigation').height() + 50;
+  var introHeight = $('#introduction').height();
+  var calculatedElement = Math.floor((currentPosition - introHeight + pageHeight*0.2) / pageHeight);
+  if (calculatedElement < 0)
+  	calculatedElement = 0;
+  console.log(currentPosition + "; ( " + currentPosition + " - " + introHeight + " - " + pageHeight*0.2 + " ) / " + pageHeight + " = " + calculatedElement);
+  if (calculatedElement > $( '#thumbnailNavigation>ul>li').length)
+  	calculatedElement = $( '#thumbnailNavigation>ul>li').length;
+  return calculatedElement;
 }
 
 $(window).scroll(function(e) {
@@ -26,6 +27,11 @@ $(window).scroll(function(e) {
 
     oldElementParent.removeClass("active");
     elementParent.addClass("active");
+
+    // Update the address
+  	var link = elementParent.find('a');
+  	var href = link.attr('href');
+  	history.replaceState(null, null, href)
   }
 });
 
