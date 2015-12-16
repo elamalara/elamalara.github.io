@@ -41,6 +41,9 @@
 
       <article id="introduction">
         <section>
+          {% if category.internal == 'featured' %}
+            <img src="/images/ela.jpg" />
+          {% endif %}
           <h3>{{ category.title }}</h3>
           {{ content }}
         </section>
