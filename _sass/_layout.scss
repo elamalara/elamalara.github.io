@@ -47,11 +47,13 @@
 /** Gallery */
 
 .galleryPage {
-    background-color: #edede4;
     overflow-x: hidden;
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
-    font-family: 'Josefin Sans', verdana, sans-serif;
+}
+
+.galleryPage>article:first-of-type {
+    height: 55vh;
 }
 
 .galleryPage>article {
@@ -87,7 +89,6 @@
 .galleryPage>article>section {
     margin: 2em 5vw;
     padding: 1em 2em 1em 4em;
-    color: #2f3131;
     text-align: right;
     vertical-align: bottom;
     font-size: large;
@@ -165,11 +166,22 @@
 }
 
 #siteNavigation>ul>li {
-    display: inline-block;
-    margin-left: 1.5em;
-    padding-top: 7px;
+    display: block;
+    float: left;
+    padding: 7px 0 6px 0;
+    border-bottom: none;
+}
+#siteNavigation>ul>li.active {
+    border-bottom: 2px solid $link-color-active;
+}
+
+#siteNavigation>ul>li>a {
+    padding: 8px 0.75em;
     height: 33px;
-    border-bottom: #f00;
+}
+#siteNavigation>ul>li>a:hover {
+    border-bottom: 2px solid $link-color-hover;
+    text-decoration: none;
 }
 
 #siteNavigation>ul>li:first-child {
@@ -189,14 +201,8 @@
     background-color: transparent;
     display: block;
     text-align: center;
-    transition: color 0.3s ease;
 }
-a {
-    color: rgba(255, 0, 0, 0.5);
-}
-a:hover {
-    color: rgba(255, 255, 255, 1);
-}
+
 .previous {
     top: 50px;
     cursor: n-resize;
@@ -204,6 +210,9 @@ a:hover {
 .next {
     bottom: 0;
     cursor: s-resize;
+}
+.signature {
+    margin: 0.5em -1em 0 0;
 }
 
 /**
