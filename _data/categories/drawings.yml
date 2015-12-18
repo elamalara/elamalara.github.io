@@ -1,6 +1,10 @@
 internal: drawings
 title: Drawings
 pieces:
+- internal: muff-pollys-dog-on-the-field
+  title: Muff on the field
+  description: Polly's dog Muff playing on the field.
+  url: "muff-pollys-dog-on-the-field.jpg"
 - internal: cow
   title: Cow
   description: Please write a brief description.
@@ -49,10 +53,6 @@ pieces:
   title: Muff the dog
   description: Polly's dog Muff
   url: "muff-pollys-dog.jpg"
-- internal: muff-pollys-dog-on-the-field
-  title: Muff on the field
-  description: Polly's dog Muff playing on the field.
-  url: "muff-pollys-dog-on-the-field.jpg"
 - internal: polly-on-the-field
   title: Polly on the field
   description: Please write a brief description.
