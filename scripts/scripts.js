@@ -11,7 +11,7 @@ function getCurrentElement() {
   var calculatedElement = Math.floor((currentPosition - introHeight + pageHeight*0.2) / pageHeight);
   if (calculatedElement < 0)
   	calculatedElement = 0;
-  console.log(currentPosition + "; ( " + currentPosition + " - " + introHeight + " - " + pageHeight*0.2 + " ) / " + pageHeight + " = " + calculatedElement);
+  //console.log(currentPosition + "; ( " + currentPosition + " - " + introHeight + " - " + pageHeight*0.2 + " ) / " + pageHeight + " = " + calculatedElement);
   if (calculatedElement > $( '#thumbnailNavigation>ul>li').length)
   	calculatedElement = $( '#thumbnailNavigation>ul>li').length;
   return calculatedElement;
@@ -32,8 +32,50 @@ $(window).scroll(function(e) {
   	var link = elementParent.find('a');
   	var href = link.attr('href');
   	history.replaceState(null, null, href)
+    moveSidebar();
   }
 });
+
+function moveSidebar(elementId) {
+  var constSidebarOffset = 50;
+  var thumbSize = 50;
+
+  var pageLength = $('html').height();
+  if (pageLength == 0) // this seems to happen in chrome
+    pageLength = $('body').height();
+
+  var pageHeight = $(window).height();
+  var sidebarLength = $('#thumbnailNavigation>ul').height();
+
+  console.log("Sidebar L: " + sidebarLength + "; Page H: " + pageHeight + "; Page L: " + pageLength);
+  if (sidebarLength <= pageHeight)
+    return;
+
+
+  var maxPageScroll = pageLength - pageHeight;
+  var maxSidebarOffset = sidebarLength - pageHeight + constSidebarOffset;
+
+  // Using thumb ID
+  var allThumbs = $('#thumbnailNavigation>ul>li').length;
+  var maxVisibleThumbs = (pageHeight - constSidebarOffset) / thumbSize;
+  var maxScrollThumb = allThumbs - maxVisibleThumbs;
+  var currentVisibleThumb = maxScrollThumb * currentScrollPosition / maxPageScroll;
+  var roundedCurrentVisibleThumb = Math.round(currentVisibleThumb);
+  console.log("Tn: " + allThumbs + "; Tm: " + maxVisibleThumbs + "; Ts: " + maxScrollThumb + "; Tc = " + currentVisibleThumb + " ~" + roundedCurrentVisibleThumb);
+  var currentOffset = -constSidebarOffset + thumbSize * roundedCurrentVisibleThumb;
+
+  // Using scroll position:
+  /*
+  var currentScrollPosition = $('html').scrollTop();
+  if (currentScrollPosition == 0) // this seems to happen in chrome
+    currentScrollPosition = $('body').scrollTop();
+  var currentOffset = -constSidebarOffset + maxSidebarOffset * currentScrollPosition / maxPageScroll;
+  console.log("Max sidebar offset: " + maxSidebarOffset + "; Max page scroll: " + maxPageScroll + "; Current scroll: " + currentScrollPosition + "; Result = " + currentOffset);
+*/
+
+  $('#thumbnailNavigation').css('top', -currentOffset);
+
+}
 
 function scrollToElement(href) {
   console.log(href);
