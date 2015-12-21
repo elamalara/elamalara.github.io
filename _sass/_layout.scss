@@ -76,7 +76,7 @@
     margin: 3em 5vw;
     float: right;
     @include media-query($on-palm) {
-        margin: 1em 2em;
+        margin: 1em 0.5em;
     }
 }
 
@@ -90,6 +90,9 @@
     border: 1px solid;
     border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
     max-width: 15em;
+    @include media-query($on-palm) {
+        max-width: 60vw;
+    }
 }
 
 .galleryPage>article figure {
