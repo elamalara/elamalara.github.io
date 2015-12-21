@@ -243,28 +243,6 @@
     }
 }
 
-.tapNavigation {
-    z-index: 3;
-    height: 7vh;
-    position: fixed;
-    left: 0;
-    right: 50px;
-    background-color: transparent;
-    display: block;
-    text-align: center;
-    @include media-query($on-palm) {
-        height: 20vh;
-    }
-}
-
-.previous {
-    top: 50px;
-    cursor: n-resize;
-}
-.next {
-    bottom: 0;
-    cursor: s-resize;
-}
 .signature {
     margin: 0 -1em 0 2em;
 }

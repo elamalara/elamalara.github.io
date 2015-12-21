@@ -85,30 +85,6 @@ function scrollToElement(href) {
   });
 }
 
-$('.previous').click(function(e){
-  e.preventDefault();
-  var id = getCurrentElement() - 1;
-  if (id < 0)
-    return;
-  var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
-  var link = thumb.find('a');
-  var href = link.attr('href');
-  scrollToElement(href);
-  return false;
-});
-
-$('.next').click(function(e){
-  e.preventDefault();
-  var id = getCurrentElement() + 1;
-  if (id >= $( '#thumbnailNavigation>ul>li').length)
-    id = 0;
-  var thumb = $( '#thumbnailNavigation>ul>li').eq(id);
-  var link = thumb.find('a');
-  var href = link.attr('href');
-  scrollToElement(href);
-  return false;
-});
-
 $('#thumbnailNavigation a').click(function(e){
   e.preventDefault();
   var href = $.attr(this, 'href');
