@@ -95,6 +95,14 @@
     }
 }
 
+.maximizer {
+    font-size: 80%;
+    vertical-align: super;
+}
+.maximizer:hover {
+    text-decoration: none;
+}
+
 .galleryPage>article figure {
     background-color: #edede4;
     background-size: contain;
