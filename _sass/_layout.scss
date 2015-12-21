@@ -81,12 +81,11 @@
 }
 
 .galleryPage>article#introduction>section>p {
-    padding-left: 18em;
+    max-width: 30em;
 }
 
-.galleryPage>article#introduction>section>img {
-    margin: 2em 3em 2em 0;
-    float: left;
+#introductionImage {
+    margin: 1em 0;
     padding: 1px;
     border: 1px solid;
     border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
@@ -114,13 +113,12 @@
 
 .galleryPage>article>section {
     margin: 2em 5vw;
-    padding: 1em 2em 1em 4em;
+    padding: 0.5em 2em 0 4em;
     text-align: right;
     vertical-align: bottom;
     border: 1px solid;
     border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
     background-color: #f1f0e7;
-    overflow: auto;
     max-width: 40em;
     min-width: 12em;
     position: absolute;
@@ -129,7 +127,7 @@
     @include media-query($on-palm) {
         min-width: 40vw;
         margin: 0.5em 1em;
-        padding: 0.4em 0.5em 0.4em 1em;
+        padding: 0.2em 0.5em 0 1em;
     }
 }
 
