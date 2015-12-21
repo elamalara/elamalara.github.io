@@ -6,7 +6,7 @@ function getCurrentElement() {
   var currentPosition = $('html').scrollTop();
   if (currentPosition == 0) // this seems to happen in chrome
   	currentPosition = $('body').scrollTop();
-  var pageHeight = $('#thumbnailNavigation').height() + 50;
+  var pageHeight = $(window).height();
   var introHeight = $('#introduction').height();
   var calculatedElement = Math.floor((currentPosition - introHeight + pageHeight*0.2) / pageHeight);
   if (calculatedElement < 0)
@@ -51,24 +51,23 @@ function moveSidebar(elementId) {
   if (sidebarLength <= pageHeight)
     return;
 
-
   var maxPageScroll = pageLength - pageHeight;
   var maxSidebarOffset = sidebarLength - pageHeight + constSidebarOffset;
+  var currentScrollPosition = $('html').scrollTop();
+  if (currentScrollPosition == 0) // this seems to happen in chrome
+    currentScrollPosition = $('body').scrollTop();
 
   // Using thumb ID
   var allThumbs = $('#thumbnailNavigation>ul>li').length;
   var maxVisibleThumbs = (pageHeight - constSidebarOffset) / thumbSize;
   var maxScrollThumb = allThumbs - maxVisibleThumbs;
-  var currentVisibleThumb = maxScrollThumb * currentScrollPosition / maxPageScroll;
+  var currentVisibleThumb = maxScrollThumb * (currentScrollPosition / maxPageScroll) * (currentScrollPosition / maxPageScroll);
   var roundedCurrentVisibleThumb = Math.round(currentVisibleThumb);
   console.log("Tn: " + allThumbs + "; Tm: " + maxVisibleThumbs + "; Ts: " + maxScrollThumb + "; Tc = " + currentVisibleThumb + " ~" + roundedCurrentVisibleThumb);
   var currentOffset = -constSidebarOffset + thumbSize * roundedCurrentVisibleThumb;
 
   // Using scroll position:
   /*
-  var currentScrollPosition = $('html').scrollTop();
-  if (currentScrollPosition == 0) // this seems to happen in chrome
-    currentScrollPosition = $('body').scrollTop();
   var currentOffset = -constSidebarOffset + maxSidebarOffset * currentScrollPosition / maxPageScroll;
   console.log("Max sidebar offset: " + maxSidebarOffset + "; Max page scroll: " + maxPageScroll + "; Current scroll: " + currentScrollPosition + "; Result = " + currentOffset);
 */
