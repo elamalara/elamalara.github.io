@@ -3,9 +3,77 @@ title: Archive
 pieces:
 - internal: 02_tulipany_275x420
   title: Tulips I
-  description: Watercolor sketch of tulips composition
+  description: Watercolor sketch of tulips composition, 27.5 x 39.7 cm
   url: "02_tulipany_275x420.jpg"
 - internal: 04_tulipany_275x420
   title: Tulips II
-  description: Watercolor sketch of tulips composition
+  description: Watercolor sketch of tulips composition, 27.5 x 39.7 cm
   url: "04_tulipany_275x420.jpg"
+- internal: 019_czeresnia
+  title: Blossom
+  description: 29.6 x 29 cm
+  url: "019_czeresnia.jpg"
+- internal: 021_magnolia
+  title: Magnolia blossom
+  description: Irish immigrants landing on Grosse Île
+  url: "021_magnolia.jpg"
+- internal: 023_bloom
+  title: Interior of Irish hut in 19th century
+  description: Please write a brief description.
+  url: "023_bloom.jpg"
+- internal: milking
+  title: Milking
+  description: Please write a brief description.
+  url: "milking.jpg"
+- internal: mill
+  title: Mill
+  description: Please write a brief description.
+  url: "mill.jpg"
+- internal: mrs-carol
+  title: Mrs. Carol
+  description: Please write a brief description.
+  url: "mrs-carol.jpg"
+- internal: mrs-ela
+  title: Mrs. Ela
+  description: Please write a brief description.
+  url: "mrs-ela.jpg"
+- internal: mrs-kay
+  title: Mrs. Kay
+  description: Please write a brief description.
+  url: "mrs-kay.jpg"
+- internal: mrs-lidia
+  title: Mrs. Lidia
+  description: Please write a brief description.
+  url: "mrs-lidia.jpg"
+- internal: mrs-lucy
+  title: Mrs. Lucy
+  description: Please write a brief description.
+  url: "mrs-lucy.jpg"
+- internal: muff-pollys-dog
+  title: Muff the dog
+  description: Polly's dog Muff
+  url: "muff-pollys-dog.jpg"
+- internal: polly-on-the-field
+  title: Polly on the field
+  description: Please write a brief description.
+  url: "polly-on-the-field.jpg"
+- internal: portrait-of-amadeus
+  title: Portrait of Amadeus
+  description: Please write a brief description.
+  url: "portrait-of-amadeus.jpg"
+- internal: portrait-of-sue
+  title: Portrait of Sue
+  description: Please write a brief description.
+  url: "portrait-of-sue.jpg"
+- internal: self-portrait
+  title: Self portrait
+  description: Please write a brief description.
+  url: "self-portrait.jpg"
+- internal: sheep
+  title: Sheep
+  description: Please write a brief description.
+  url: "sheeps.jpg"
+- internal: turf-collecting-on-a-bog
+  title: Collecting turf on a bog
+  description: Please write a brief description.
+  url: "turf-collecting-on-a-bog.jpg"
