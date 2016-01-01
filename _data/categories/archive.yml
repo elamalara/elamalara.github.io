@@ -15,65 +15,97 @@ pieces:
   url: "019_czeresnia.jpg"
 - internal: 021_magnolia
   title: Magnolia blossom
-  description: Irish immigrants landing on Grosse Île
+  description: 29.6 x 20.9 cm
   url: "021_magnolia.jpg"
 - internal: 023_bloom
-  title: Interior of Irish hut in 19th century
-  description: Please write a brief description.
+  title: Chaenomeles in flower 01
+  description: 29.6 x 20.9 cm
   url: "023_bloom.jpg"
-- internal: milking
-  title: Milking
-  description: Please write a brief description.
-  url: "milking.jpg"
-- internal: mill
-  title: Mill
-  description: Please write a brief description.
-  url: "mill.jpg"
-- internal: mrs-carol
-  title: Mrs. Carol
-  description: Please write a brief description.
-  url: "mrs-carol.jpg"
-- internal: mrs-ela
-  title: Mrs. Ela
-  description: Please write a brief description.
-  url: "mrs-ela.jpg"
-- internal: mrs-kay
-  title: Mrs. Kay
-  description: Please write a brief description.
-  url: "mrs-kay.jpg"
-- internal: mrs-lidia
-  title: Mrs. Lidia
-  description: Please write a brief description.
-  url: "mrs-lidia.jpg"
-- internal: mrs-lucy
-  title: Mrs. Lucy
-  description: Please write a brief description.
-  url: "mrs-lucy.jpg"
-- internal: muff-pollys-dog
-  title: Muff the dog
-  description: Polly's dog Muff
-  url: "muff-pollys-dog.jpg"
-- internal: polly-on-the-field
-  title: Polly on the field
-  description: Please write a brief description.
-  url: "polly-on-the-field.jpg"
-- internal: portrait-of-amadeus
-  title: Portrait of Amadeus
-  description: Please write a brief description.
-  url: "portrait-of-amadeus.jpg"
-- internal: portrait-of-sue
-  title: Portrait of Sue
-  description: Please write a brief description.
-  url: "portrait-of-sue.jpg"
-- internal: self-portrait
-  title: Self portrait
-  description: Please write a brief description.
-  url: "self-portrait.jpg"
-- internal: sheep
-  title: Sheep
-  description: Please write a brief description.
-  url: "sheeps.jpg"
-- internal: turf-collecting-on-a-bog
-  title: Collecting turf on a bog
-  description: Please write a brief description.
-  url: "turf-collecting-on-a-bog.jpg"
+- internal: 027_bloom
+  title: Chaenomeles in flower 02
+  description: 29.6 x 20.9 cm
+  url: "027_bloom.jpg"
+- internal: 029_bloom
+  title: Chaenomeles in flower 03
+  description: 29.6 x 20.9 cm
+  url: "029_bloom.jpg"
+- internal: 066_bloom
+  title: Branch of blooming Chaenomeles
+  description: 56 x 42 cm
+  url: "066_bloom.jpg"
+- internal: 067_mlecz
+  title: Dandelions
+  description: 56 x 42 cm
+  url: "067_mlecz.jpg"
+- internal: 073_roza
+  title: White Rose in the grass
+  description: 56 x 42 cm
+  url: "073_roza.jpg"
+- internal: 074_laka
+  title: Fireweed 01
+  description: 42 x 56 cm
+  url: "074_laka.jpg"
+- internal: 078_laka
+  title: Fireweed 02
+  description: 56 x 42 cm
+  url: "078_laka.jpg"
+- internal: 79_tulip
+  title: The bed of tulips
+  description: 42 x 56 cm
+  url: "79_tulip.jpg"
+- internal: 080_laka
+  title: Marigold flowers
+  description: 56 x 42 cm
+  url: "080_laka.jpg"
+- internal: 081_mlecz
+  title: Dandelions 02
+  description: 56 x 42 cm
+  url: "081_mlecz.jpg"
+- internal: 82_tulip
+  title: Tulips 3
+  description: 56 x 42 cm
+  url: "82_tulip.jpg"
+- internal: 083_potok
+  title: Mountain stream
+  description: 42 x 56 cm
+  url: "083_potok.jpg"
+- internal: 084_wisla
+  title: Vistula River banks 01
+  description: 42 x 56 cm
+  url: "084_wisla.jpg"
+- internal: 085_gory
+  title: Tatra mountains
+  description: 56 x 42 cm
+  url: "085_gory.jpg"
+- internal: 086_swiatniki_drzewo
+  title: Fall Colors
+  description: 42 x 56 cm
+  url: "086_swiatniki_drzewo.jpg"
+- internal: 088_laka
+  title: Vistula River banks 02
+  description: 42 x 56 cm
+  url: "088_laka.jpg"
+- internal: 4789_Tulipany_2006_10_13
+  title: Tulips 04
+  description: 42 x 56 cm
+  url: "4789_Tulipany_2006_10_13.jpg"
+- internal: 4793_Sloneczniki_i_jerzyny
+  title: Sunflowers and blackberry
+  description: 56 x 42 cm
+  url: "4793_Sloneczniki_i_jerzyny.jpg"
+- internal: 4797_Sloneczniki_w_wazonie
+  title: Sunflowers in a vase
+  description: 42 x 56 cm
+  url: "4797_Sloneczniki_w_wazonie.jpg"
+- internal: 4805_Magnolia_1
+  title: Magnolia blossom 01
+  description: 42 x 27.9 cm
+  url: "4805_Magnolia_1.jpg"
+- internal: 4808_Magnolia_4
+  title: Magnolia blossom 04
+  description: 42 x 27.9 cm
+  url: "4808_Magnolia_4.jpg"
+- internal: 4809_3_roze
+  title: Roses
+  description: 27.5 x 39.7 cm
+  url: "4809_3_roze.jpg"
