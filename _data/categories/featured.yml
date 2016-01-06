@@ -1,6 +1,7 @@
 internal: featured
 title: Welcome
 hideinmenu: true
+order: 0
 pieces:
 - internal: flowers-in-white-pot
   title: Flowers in white pot
