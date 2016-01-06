@@ -25,10 +25,6 @@ pieces:
   title: Chaenomeles in flower 02
   description: 29.6 x 20.9 cm
   url: "027_bloom.jpg"
-- internal: 029_bloom
-  title: Chaenomeles in flower 03
-  description: 29.6 x 20.9 cm
-  url: "029_bloom.jpg"
 - internal: 066_bloom
   title: Branch of blooming Chaenomeles
   description: 56 x 42 cm
@@ -41,22 +37,6 @@ pieces:
   title: White Rose in the grass
   description: 56 x 42 cm
   url: "073_roza.jpg"
-- internal: 074_laka
-  title: Fireweed 01
-  description: 42 x 56 cm
-  url: "074_laka.jpg"
-- internal: 078_laka
-  title: Fireweed 02
-  description: 56 x 42 cm
-  url: "078_laka.jpg"
-- internal: 79_tulip
-  title: The bed of tulips
-  description: 42 x 56 cm
-  url: "79_tulip.jpg"
-- internal: 080_laka
-  title: Marigold flowers
-  description: 56 x 42 cm
-  url: "080_laka.jpg"
 - internal: 081_mlecz
   title: Dandelions 02
   description: 56 x 42 cm
