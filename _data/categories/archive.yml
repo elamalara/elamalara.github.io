@@ -1,6 +1,5 @@
 internal: archive
 title: Archive
-order: 5
 pieces:
 - internal: still_life_mirror
   title: The still life with a mirror
