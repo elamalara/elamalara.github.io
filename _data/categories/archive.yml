@@ -1,6 +1,10 @@
 internal: archive
 title: Archive
 pieces:
+- internal: still_life_mirror
+  title: The still life with a mirror
+  description: Oil on canvas
+  url: "tykwy_010.jpg"
 - internal: azalea
   title: Still life with an azalea
   description: Oil
@@ -49,86 +53,82 @@ pieces:
   title: Before the storm
   description: Oil on canvas
   url: "kukurydza_045.jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
-- internal: xxx
-  title: XXX
-  description: Oil, 27.5 x 39.7 cm
-  url: ".jpg"
+- internal: still_life_grape
+  title: The still life with a grape
+  description: Oil on canvas
+  url: "m_natura_034.jpg"
+- internal: melancholy
+  title: Melancholy
+  description: Oil on canvas
+  url: "melancholia_030.jpg"
+- internal: still_life_page
+  title: Still life with a white page
+  description: Oil on canvas
+  url: "mnat_z_kartka_023.jpg"
+- internal: still_life_daffodils
+  title: Still life with daffodils
+  description: Oil on canvas
+  url: "mnat_z_zonkilami_017.jpg"
+- internal: reflection
+  title: The reflection
+  description: Oil on canvas
+  url: "mnatura_odbicie_026.jpg"
+- internal: still_life_seashell
+  title: Still life with a seashell
+  description: Oil on canvas
+  url: "p_tykwy_007.jpg"
+- internal: still_life_pumpkins
+  title: Still life with two pumkins
+  description: Oil on canvas
+  url: "pat_tykwy_008.jpg"
+- internal: cracked_pumpkin
+  title: The cracked pumpkin
+  description: Oil on canvas
+  url: "peknieta_dynia_021.jpg"
+- internal: first_touch
+  title: The first touch
+  description: Oil on canvas, 120 x 100 in
+  url: "pierwszy_dotyk_043.jpg"
+- internal: pond_in_pieskowa_skala
+  title: The pond in Pieskowa Skala
+  description: Oil on canvas
+  url: "pieskowa_skala.jpg"
+- internal: tobacco_field
+  title: The tobacco field
+  description: Oil on canvas
+  url: "pole_tyt.jpg"
+- internal: city_outskirts
+  title: City outskirts
+  description: Oil on canvas
+  url: "przedmiescie_019.jpg"
+- internal: orchad_winter
+  title: The orchad in the winter
+  description: Oil on canvas
+  url: "sad_w_zimie_033.jpg"
+- internal: enchanted_walk
+  title: Enchanted walk
+  description: Oil on canvas, 100 x 120 in
+  url: "tajemniczy_spacer_029.jpg"
+- internal: three_old_pumpkins
+  title: The three old pumpkins
+  description: Oil on canvas
+  url: "tykwy_001.jpg"
+- internal: vegetables
+  title: Vegetables
+  description: 1985, Oil on a wooden plank, 42 x 37 in
+  url: "warzywa_1.jpg"
+- internal: old_bucket
+  title: The old bucket
+  description: 1985, Oil on a wooden plank, 54 x 40 in
+  url: "wiadro.jpg"
+- internal: snow_storm
+  title: The snow storm
+  description: Oil on a wooden plank
+  url: "zamiec_025.jpg"
+- internal: ploughed_field
+  title: The ploughed field
+  description: Oil on canvas
+  url: "zaorane_pole_018.jpg"
 - internal: 02_tulipany_275x420
   title: Tulips I
   description: Watercolor sketch of tulips composition, 27.5 x 39.7 cm
