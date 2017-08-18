@@ -6,6 +6,11 @@ pieces:
   title: Beaver Valley in Winter
   description: Please write a brief description.
   url: "beaver-valley-in-winter.jpg"
+  
+- internal: 03_Old-House-in-the-Beaver-V
+  title: Old House in the Beaver Valley
+  description: Please write a brief description.
+  url: "03_Old-House-in-the-Beaver-V.jpg"
 
 - internal: blue-birds
   title: Blue birds
