@@ -14,7 +14,7 @@
               class="active"
             {% endif %}
             ><a href="{{ site.url }}">Elizabeth MALARA </a></li>
-          {% assign availableCategories = site.data.categories | sort: 'order' %}
+          {% assign availableCategories = (site.data.categories | sort: 'order') %}
           {% for availableCategory in availableCategories %}
             {% unless availableCategory.[1].hideinmenu %}
             <li 
