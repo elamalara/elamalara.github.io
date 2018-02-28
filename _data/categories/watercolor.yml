@@ -1,0 +1,63 @@
+internal: watercolor
+title: Watercolor
+pieces:
+- internal: almond-tree
+  title: Almond tree
+  description: Please write a brief description.
+  url: "almond-tree.jpg"
+- internal: cactus-in-blossom
+  title: Cactus in blossom
+  description: Please write a brief description.
+  url: "cactus-in-blossom.jpg"
+- internal: cherrys-blossom-i
+  title: Cherries blossom I
+  description: Please write a brief description.
+  url: "cherrys-blossom-i.jpg"
+- internal: cherrys-blossom-ii
+  title: Cherries blossom II
+  description: Please write a brief description.
+  url: "cherrys-blossom-ii.jpg"
+- internal: clematis
+  title: Clematis
+  description: Please write a brief description.
+  url: "clematis.jpg"
+- internal: czesiek
+  title: Czesiek the dog
+  description: Please write a brief description.
+  url: "czesiek.jpg"
+- internal: fireweed-i
+  title: Fireweed I
+  description: Please write a brief description.
+  url: "fireweed-i.jpg"
+- internal: fireweed-ii
+  title: Fireweed II
+  description: Please write a brief description.
+  url: "fireweed-ii.jpg"
+- internal: malta
+  title: Malta the dog
+  description: Please write a brief description.
+  url: "malta.jpg"
+- internal: marigolds
+  title: Marigolds
+  description: Please write a brief description.
+  url: "marigolds.jpg"
+- internal: red-sunflower-and-blackberry
+  title: Red sunflower and blackberry
+  description: Please write a brief description.
+  url: "red-sunflower-and-blackberry.jpg"
+- internal: roses
+  title: Roses
+  description: Please write a brief description.
+  url: "roses.jpg"
+- internal: rubekia-meadow
+  title: Marigold meadow
+  description: Please write a brief description.
+  url: "rubekia-meadow.jpg"
+- internal: tulips
+  title: Tulips
+  description: Please write a brief description.
+  url: "tulips.jpg"
+- internal: tulips-ii
+  title: Tulips II
+  description: Please write a brief description.
+  url: "tulips-ii.jpg"
