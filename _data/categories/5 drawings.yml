@@ -1,6 +1,5 @@
 internal: drawings
 title: Drawings
-order: '4'
 pieces:
 - internal: muff-pollys-dog-on-the-field
   title: Muff on the field

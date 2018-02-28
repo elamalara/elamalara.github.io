@@ -1,6 +1,5 @@
 internal: watercolor
 title: Watercolor
-order: '3'
 pieces:
 - internal: almond-tree
   title: Almond tree
