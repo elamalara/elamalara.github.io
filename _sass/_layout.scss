@@ -19,7 +19,7 @@
 .homePicture.topRight {
     top:0;
     right:0;
-    background-color: #606;   
+    background-color: #606;
 }
 .homePicture.bottomLeft {
     bottom:0;
@@ -114,8 +114,7 @@
 }
 
 .galleryPage>article figure>img {
-    object-fit: contain;
-    display: none;
+    object-fit: scale-down;
     width: 100%;
     height: 70vh;
     margin-top: 5vh;
@@ -146,11 +145,11 @@
 }
 
 .galleryPage>article>section>p {
-    
+
 }
 
 .foreword {
-    
+
 }
 
 #titleParagraph {
