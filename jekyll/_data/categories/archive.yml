@@ -1,0 +1,267 @@
+internal: archive
+title: Archive
+pieces:
+- internal: still_life_mirror
+  title: The still life with a mirror
+  description: Oil on canvas
+  url: "tykwy_010.jpg"
+- internal: azalea
+  title: Still life with an azalea
+  description: Oil
+  url: "azalia_009.jpg"
+- internal: chinese_vase
+  title: Flowers in a Chinese vase
+  description: 1985, Oil on a wooden plank, 39.5 x 63 in
+  url: "chinski_waz.jpg"
+- internal: brass_kettle
+  title: Still life with a figurine and a turned over kettle
+  description: Oil
+  url: "czajnik_011.jpg"
+- internal: still_life_violet
+  title: Still life with a violet fabric
+  description: Oil on canvas
+  url: "dynie_040.jpg"
+- internal: still_life_pod
+  title: Still life with a pod
+  description: Oil on canvas
+  url: "dzbanek_002.jpg"
+- internal: nude
+  title: The laying model
+  description: Oil on canvas
+  url: "karolina_013.jpg"
+- internal: szczukin
+  title: Steipan S. Szczukin, Self-potrait, Copy
+  description: Oil on canvas
+  url: "kopia_003.jpg"
+- internal: gotlieb
+  title: Maurycy Gottlieb, "Ahasverus", Copy
+  description: Oil on a wooden plank
+  url: "kopia_gotlieb_020.jpg"
+- internal: matejko
+  title: Jan Matejko, "Wernychora", fragment, Copy
+  description: Oil on canvas
+  url: "kopia_matejko_014.jpg"
+- internal: mill
+  title: The old mill, Copy
+  description: Oil on canvas
+  url: "kopia_mlyn_022.jpg"
+- internal: sunset
+  title: The sunset
+  description: Oil on canvas
+  url: "krajobraz_jesienny_039.jpg"
+- internal: before_the_storm
+  title: Before the storm
+  description: Oil on canvas
+  url: "kukurydza_045.jpg"
+- internal: still_life_grape
+  title: The still life with a grape
+  description: Oil on canvas
+  url: "m_natura_034.jpg"
+- internal: melancholy
+  title: Melancholy
+  description: Oil on canvas
+  url: "melancholia_030.jpg"
+- internal: still_life_page
+  title: Still life with a white page
+  description: Oil on canvas
+  url: "mnat_z_kartka_023.jpg"
+- internal: still_life_daffodils
+  title: Still life with daffodils
+  description: Oil on canvas
+  url: "mnat_z_zonkilami_017.jpg"
+- internal: reflection
+  title: The reflection
+  description: Oil on canvas
+  url: "mnatura_odbicie_026.jpg"
+- internal: still_life_seashell
+  title: Still life with a seashell
+  description: Oil on canvas
+  url: "p_tykwy_007.jpg"
+- internal: still_life_pumpkins
+  title: Still life with two pumkins
+  description: Oil on canvas
+  url: "pat_tykwy_008.jpg"
+- internal: cracked_pumpkin
+  title: The cracked pumpkin
+  description: Oil on canvas
+  url: "peknieta_dynia_021.jpg"
+- internal: first_touch
+  title: The first touch
+  description: Oil on canvas, 120 x 100 in
+  url: "pierwszy_dotyk_043.jpg"
+- internal: pond_in_pieskowa_skala
+  title: The pond in Pieskowa Skala
+  description: Oil on canvas
+  url: "pieskowa_skala.jpg"
+- internal: tobacco_field
+  title: The tobacco field
+  description: Oil on canvas
+  url: "pole_tyt.jpg"
+- internal: city_outskirts
+  title: City outskirts
+  description: Oil on canvas
+  url: "przedmiescie_019.jpg"
+- internal: orchad_winter
+  title: The orchad in the winter
+  description: Oil on canvas
+  url: "sad_w_zimie_033.jpg"
+- internal: enchanted_walk
+  title: Enchanted walk
+  description: Oil on canvas, 100 x 120 in
+  url: "tajemniczy_spacer_029.jpg"
+- internal: three_old_pumpkins
+  title: The three old pumpkins
+  description: Oil on canvas
+  url: "tykwy_001.jpg"
+- internal: vegetables
+  title: Vegetables
+  description: 1985, Oil on a wooden plank, 42 x 37 in
+  url: "warzywa_1.jpg"
+- internal: old_bucket
+  title: The old bucket
+  description: 1985, Oil on a wooden plank, 54 x 40 in
+  url: "wiadro.jpg"
+- internal: snow_storm
+  title: The snow storm
+  description: Oil on a wooden plank
+  url: "zamiec_025.jpg"
+- internal: ploughed_field
+  title: The ploughed field
+  description: Oil on canvas
+  url: "zaorane_pole_018.jpg"
+- internal: 02_tulipany_275x420
+  title: Tulips I
+  description: Watercolor sketch of tulips composition, 27.5 x 39.7 cm
+  url: "02_tulipany_275x420.jpg"
+- internal: 04_tulipany_275x420
+  title: Tulips II
+  description: Watercolor sketch of tulips composition, 27.5 x 39.7 cm
+  url: "04_tulipany_275x420.jpg"
+- internal: 019_czeresnia
+  title: Blossom
+  description: 24 x 17 cm
+  url: "019_czeresnia.jpg"
+- internal: 021_magnolia
+  title: Magnolia blossom
+  description: 29.6 x 20.9 cm
+  url: "021_magnolia.jpg"
+- internal: 023_bloom
+  title: Chaenomeles in flower 01
+  description: 29.6 x 20.9 cm
+  url: "023_bloom.jpg"
+- internal: 027_bloom
+  title: Chaenomeles in flower 02
+  description: 29.6 x 20.9 cm
+  url: "027_bloom.jpg"
+- internal: 066_bloom
+  title: Branch of blooming Chaenomeles
+  description: 56 x 42 cm
+  url: "066_bloom.jpg"
+- internal: 067_mlecz
+  title: Dandelions
+  description: 56 x 42 cm
+  url: "067_mlecz.jpg"
+- internal: 073_roza
+  title: White Rose in the grass
+  description: 56 x 42 cm
+  url: "073_roza.jpg"
+- internal: 081_mlecz
+  title: Dandelions 02
+  description: 56 x 42 cm
+  url: "081_mlecz.jpg"
+- internal: 82_tulip
+  title: Tulips 3
+  description: 56 x 42 cm
+  url: "82_tulip.jpg"
+- internal: 083_potok
+  title: Mountain stream
+  description: 42 x 56 cm
+  url: "083_potok.jpg"
+- internal: 084_wisla
+  title: Vistula River banks 01
+  description: 42 x 56 cm
+  url: "084_wisla.jpg"
+- internal: 085_gory
+  title: Tatra mountains
+  description: 56 x 42 cm
+  url: "085_gory.jpg"
+- internal: 086_swiatniki_drzewo
+  title: Fall Colors
+  description: 42 x 56 cm
+  url: "086_swiatniki_drzewo.jpg"
+- internal: 088_laka
+  title: Vistula River banks 02
+  description: 42 x 56 cm
+  url: "088_laka.jpg"
+- internal: 4789_Tulipany_2006_10_13
+  title: Tulips 04
+  description: 42 x 56 cm
+  url: "4789_Tulipany_2006_10_13.jpg"
+- internal: 4793_Sloneczniki_i_jerzyny
+  title: Sunflowers and blackberry
+  description: 56 x 42 cm
+  url: "4793_Sloneczniki_i_jerzyny.jpg"
+- internal: 4797_Sloneczniki_w_wazonie
+  title: Sunflowers in a vase
+  description: 42 x 56 cm
+  url: "4797_Sloneczniki_w_wazonie.jpg"
+- internal: 4805_Magnolia_1
+  title: Magnolia blossom 01
+  description: 42 x 27.9 cm
+  url: "4805_Magnolia_1.jpg"
+- internal: 4808_Magnolia_4
+  title: Magnolia blossom 04
+  description: 42 x 27.9 cm
+  url: "4808_Magnolia_4.jpg"
+- internal: 4809_3_roze
+  title: Roses
+  description: 27.5 x 39.7 cm
+  url: "4809_3_roze.jpg"
+- internal: 4817_Kwiaty_wisni
+  title: Cherry blossom
+  description: 24 x 17 cm
+  url: "4817_Kwiaty_wisni.jpg" 
+- internal: apli1_wiosna
+  title: Four Seasons - Spring
+  description: Embroidery, 80 x 50 cm
+  url: "apli1_wiosna.jpg"
+- internal: apli2_lato
+  title: Four Seasons - Summer
+  description: Embroidery, 80 x 50 cm
+  url: "apli2_lato.jpg"
+- internal: apli3_jesien
+  title: Four Seasons - Fall
+  description: Embroidery, 80 x 50 cm
+  url: "apli3_jesien.jpg"
+- internal: apli4_zima
+  title: Four Seasons - Winter
+  description: Embroidery, 80 x 50 cm
+  url: "apli4_zima.jpg"
+- internal: aplik_006_powoj
+  title: Clematis
+  description: Embroidery, 140 x 200 cm
+  url: "aplik_006_powoj.jpg"
+- internal: aplik_028_fantas
+  title: Fantasy
+  description: Embroidery, 100 x 70 cm
+  url: "aplik_028_fantas.jpg"
+- internal: aplik_036_kossyb
+  title: Irys Sibirica
+  description: Embroidery, 100 x 70 cm
+  url: "aplik_036_kossyb.jpg"
+- internal: aplik_038_lilie
+  title: Lilies
+  description: Embroidery, 100 x 70 cm
+  url: "aplik_038_lilie.jpg"
+- internal: aplik_041_zegar
+  title: Time
+  description: Embroidery, 100 x 70 cm
+  url: "aplik_041_zegar.jpg"
+- internal: aplik_042_lilie
+  title: Lilies II
+  description: Embroidery, 100 x 70 cm
+  url: "aplik_042_lilie.jpg"
+- internal: aplik_044_zegar
+  title: Time II
+  description: Embroidery, 100 x 70 cm
+  url: "aplik_044_zegar.jpg"

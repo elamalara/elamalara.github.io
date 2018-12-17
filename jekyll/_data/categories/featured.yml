@@ -1,0 +1,44 @@
+internal: featured
+title: Welcome
+hideinmenu: true
+pieces:
+- internal: flowers-in-white-pot
+  title: Flowers in white pot
+  description: Oil.
+  absoluteurl: "images/oil/flowers-in-white-pot.jpg"
+- internal: sunset-in-the-garden
+  title: Sunset in the garden
+  description: Oil.
+  absoluteurl: "images/oil/sunset-in-the-garden.jpg"
+- internal: eugenia-fall-in-winter
+  title: Eugenia Fall in Winter
+  description: Acrylic.
+  absoluteurl: "images/acrylic/eugenia-fall-in-winter.jpg"
+- internal: evening-on-the-escarpment-in-beaver-valley
+  title: Evening on the escaprmpent in Beaver Valley
+  description: Acrylic.
+  absoluteurl: "images/acrylic/evening-on-the-escarpment-in-beaver-valley.jpg"
+- internal: still_life_mirror
+  title: The still life with a mirror
+  description: Oil on canvas
+  absoluteurl: "images/archive/tykwy_010.jpg"
+- internal: red-sunflower-and-blackberry
+  title: Red sunflower and blackberry
+  description: Watercolor.
+  absoluteurl: "images/watercolor/red-sunflower-and-blackberry.jpg"
+- internal: lilies
+  title: Lilies
+  description: Acrylic
+  absoluteurl: "images/acrylic/lilies.jpg"
+- internal: white-peacock-in-sepia
+  title: White peacock in sepia
+  description: Acrylic
+  absoluteurl: "images/acrylic/white-peacock-in-sepia.jpg"
+- internal: roses-and-peonies
+  title: Roses and Peonies
+  description: Oil
+  absoluteurl: "images/oil/roses-and-peonies.jpg"
+- internal: self-portrait
+  title: Self portrait
+  description: Drawing
+  absoluteurl: "images/drawings/self-portrait.jpg"
