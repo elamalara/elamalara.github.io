@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+header {
+    background-color: yellow;
+}
+
+header > .content {
+    max-width: 600px;
+    background-color: red;
+    margin: 0.5em auto;
+    height: 2em;
+}
+
+header > .content > .title {
+    float: left;
+    font-size: 1.5em;
+    letter-spacing: -0.04em;
+    font-kerning: normal;
+}
+
+header > .content > .buttons {
+    float: right;
+}
+
+section {
+    max-width: 640px;
+    line-height: 1.5em;
+    margin: 2.4em auto 1.2em auto;
+    border-bottom: 1px solid #888;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+section > article {
+    max-width: 600px;
+    margin: 0 20px;
+}
+
+article > p + p {
+    text-indent: 1em;
+}
+
+section > figure {
+    max-width: 600px;
+    margin: 0 20px;
+}
+
+
+.picture {
+    display: block;
+    background-color: green;
+    width: 600px;
+    height: 600px;
+}
+
+.title {
+    font-weight: bold;
+}
