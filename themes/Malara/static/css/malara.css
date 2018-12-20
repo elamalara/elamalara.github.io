@@ -80,3 +80,16 @@ article > p + p {
 .title {
     font-weight: bold;
 }
+
+.signature {
+    margin: 0 -1em 0 2em;
+}
+
+#introductionImage {
+    margin: 1em 0;
+    padding: 1px;
+    border: 1px solid;
+    border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
+    max-width: 15em;
+    align: center;
+}
