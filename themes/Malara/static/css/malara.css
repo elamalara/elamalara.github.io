@@ -1,15 +1,18 @@
+head {
+    margin: 0;
+}
 body {
     margin: 0;
     font-size: 1.2em;
 }
 
 header {
-    background-color: yellow;
+    padding-top: 0.1em;
+    border-bottom: 1px solid #888;
 }
 
 header > .content {
     max-width: 600px;
-    background-color: red;
     margin: 0.5em auto;
     height: 2em;
 }
@@ -26,36 +29,52 @@ header > .content > .buttons {
 }
 
 section {
-    max-width: 640px;
-    line-height: 1.5em;
+    max-width: 600px;
     margin: 2.4em auto 1.2em auto;
+    padding: 40px;
+
     border-bottom: 1px solid #888;
+    line-height: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 section:last-child {
     border-bottom: none;
 }
 
-section > article {
+article {
     max-width: 600px;
-    margin: 0 20px;
+    margin: 2.4em auto 1.2em auto;
+    padding: 40px; /* decrease down to zero on narrow screens */
+
+    line-height: 1.5em;
 }
 
 article > p + p {
     text-indent: 1em;
 }
 
-section > figure {
-    max-width: 600px;
-    margin: 0 20px;
+.description p {
+    max-width: 400px;
+    text-align: right;
+    margin: 0.6em 0;
 }
 
-
 .picture {
-    display: block;
-    background-color: green;
+    align-self: center;
+}
+
+.list .picture img {
     width: 600px;
     height: 600px;
+}
+
+.single .picture img {
+    width: 900px;
+    height: 900px;
 }
 
 .title {

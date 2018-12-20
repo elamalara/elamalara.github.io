@@ -1,14 +1,14 @@
 {{ define "content" }}
-<section>
+<section class="single">
     {{ with .Params }}
-    <figure>
-        <div class="picture">
-            <img src="{{.image}}" title="{{.title}}" />
-        </div>
+    <div class="picture">
+        <img src="/images/{{- .image -}}" title="{{.title}}" />
+    </div>
+    <div class="description">
         <p class="title">{{.title}}</p>
         <p class="description">{{.description}}</p>
         <p class="tags">{{.tags}}</p>
-    </figure>
+    </div>
     {{ end }}
 </section>
 {{ end }}
