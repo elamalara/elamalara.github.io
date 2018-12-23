@@ -1,14 +1,12 @@
 {{ define "content" }}
     <article>
-        <!--
         <header>
             <h1>{{.Title}}</h1>
         </header>
-        -->
-        <!-- "{{.Content}}" pulls from the markdown content of the corresponding _index.md -->
+        <!-- pulls from the markdown content of the corresponding _index.md -->
         {{.Content}}
     </article>
-    <!-- Ranges through content/art/*.md -->
+    <!-- Ranges through art associated with this taxonomy -->
     {{ range .Pages }}
     {{ $link := .Permalink }}
     <section class="list">
@@ -28,7 +26,7 @@
                         <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
                     {{ end }}
                 {{end}}
-                </p>
+                </p>    
             </div>
         {{ end }}
     </section>
