@@ -77,6 +77,18 @@ article > p + p {
     height: 900px;
 }
 
+.tags a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+    font-size: 0.8em;
+    letter-spacing: -0.02em;
+}
+
+.tags a:hover {
+    text-decoration: underline;
+}
+
 .title {
     font-weight: bold;
 }
