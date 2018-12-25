@@ -2,7 +2,7 @@
 image = "fireweed-ii.jpg"
 title = "Fireweed II"
 weight = 0
-description = "Please write a brief description."
+description = ""
 availability = ""
 tags = ["Watercolor"]
 +++

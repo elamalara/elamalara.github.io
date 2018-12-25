@@ -2,7 +2,7 @@
 image = "mrs-lucy.jpg"
 title = "Mrs. Lucy"
 weight = 0
-description = "Please write a brief description."
+description = ""
 availability = ""
 tags = ["Drawings"]
 +++

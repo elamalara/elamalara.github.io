@@ -2,7 +2,7 @@
 image = "roses-and-peonies.jpg"
 title = "Roses and Peonies"
 weight = 0
-description = "Please write a brief description."
+description = "Oil"
 availability = ""
-tags = ["Welcome"]
+tags = ["Welcome", "Oil"]
 +++

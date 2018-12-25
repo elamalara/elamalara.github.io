@@ -2,7 +2,7 @@
 image = "mill.jpg"
 title = "Mill"
 weight = 0
-description = "Please write a brief description."
+description = "Oil on canvas"
 availability = ""
-tags = ["Archive"]
+tags = ["Archive", "Drawings"]
 +++

@@ -4,5 +4,5 @@ title = "White peacock in sepia"
 weight = 0
 description = "Acrylic"
 availability = ""
-tags = ["Acrylic"]
+tags = ["Acrylic", "Welcome"]
 +++
