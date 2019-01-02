@@ -4,5 +4,5 @@ title = "Eugenia Fall in Winter"
 weight = 0
 description = "Acrylic."
 availability = ""
-tags = ["Acrylic", "Welcome"]
+tags = ["Acrylic", "Featured"]
 +++

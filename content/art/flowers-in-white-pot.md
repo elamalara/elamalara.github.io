@@ -4,5 +4,5 @@ title = "Flowers in white pot"
 weight = 0
 description = "Oil."
 availability = ""
-tags = ["Welcome", "Oil"]
+tags = ["Featured", "Oil"]
 +++

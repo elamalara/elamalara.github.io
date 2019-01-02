@@ -4,5 +4,5 @@ title = "Red sunflower and blackberry"
 weight = 0
 description = "Watercolor."
 availability = ""
-tags = ["Welcome", "Watercolor"]
+tags = ["Featured", "Watercolor"]
 +++
