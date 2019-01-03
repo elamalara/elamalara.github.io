@@ -17,17 +17,8 @@
             </a>
         </div>
         <div class="description">
-                <p class="title">{{.title}}</p>
-                <p class="description">{{.description}}</p>
-                <p class="tags">
-                {{ range .tags }}
-                    <span><a href="/tags/{{ urlize . }}">{{ . }}</a></span>
-                    {{ with $.Site.GetPage (printf "/tags/%s" .) }}
-                        <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-                    {{ end }}
-                {{end}}
-                </p>    
-            </div>
+            <p class="title">{{.title}}</p>
+        </div>
         {{ end }}
     </section>
     {{ end }}
