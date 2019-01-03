@@ -4,5 +4,5 @@ title = "Self portrait"
 weight = 0
 description = "Drawing"
 availability = ""
-tags = ["Drawings", "Featured"]
+tags = ["Drawing", "Featured"]
 +++

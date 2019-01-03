@@ -4,5 +4,5 @@ title = "Interior of Irish hut in 19th century"
 weight = 0
 description = ""
 availability = ""
-tags = ["Drawings"]
+tags = ["Drawing"]
 +++

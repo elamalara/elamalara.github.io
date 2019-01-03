@@ -4,5 +4,5 @@ title = "Muff on the field"
 weight = 0
 description = "Polly's dog Muff playing on the field."
 availability = ""
-tags = ["Drawings"]
+tags = ["Drawing"]
 +++
