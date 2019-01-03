@@ -6,14 +6,24 @@ body {
     font-size: 1.2em;
 }
 
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 header {
     padding-top: 0.1em;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #eee;
 }
 
 header > .content {
-    max-width: 600px;
-    margin: 0.5em auto;
+    max-width: 700px;
+    margin: 0.7em auto 0.3em auto;
     height: 2em;
 }
 
@@ -26,6 +36,31 @@ header > .content > .title {
 
 header > .content > .buttons {
     float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header > .content > .buttons li {
+    display: inline-block;
+}
+
+header > .content > .buttons li:not(.instagram-button) {
+    position: relative;
+    top: -0.2em;
+}
+
+header > .content > .buttons a {
+    font-size: 0.9em;
+    letter-spacing: -0.02em;
+    margin: 0 0.2em;
+}
+
+.instagram-button img {
+    position: relative;
+    top: 0.3em;
+    width: 29px;
+    height: 29px;
 }
 
 section {
@@ -76,16 +111,9 @@ article > p + p {
     max-width: 1000px;
 }
 
-.tags a {
-    text-decoration: none;
-    font-weight: bold;
-    color: #000;
-    font-size: 0.8em;
+.tags {
+    font-size: 0.9em;
     letter-spacing: -0.02em;
-}
-
-.tags a:hover {
-    text-decoration: underline;
 }
 
 .title {
@@ -107,10 +135,10 @@ article > p + p {
 
 footer {
     padding-bottom: 0.1em;
-    border-top: 1px solid #ccc;
 }
 
 footer > .content {
-    max-width: 600px;
-    margin: 0.5em auto;
+    max-width: 700px;
+    margin: 1em auto 1.5em auto;
+    font-size: 0.9em;
 }
