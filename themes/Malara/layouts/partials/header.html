@@ -2,12 +2,12 @@
     <div class="content">
         <div class="title"><a href="{{ absURL "tags/featured" }}">Ella Malara</a></div>
         <ul class="buttons">
-            <li><a href="{{ absURL "tags/landscape" }}">Landscape</a></li>
-            <li><a href="{{ absURL "tags/flowers" }}">Flowers</a></li>
-            <li><a href="{{ absURL "tags/portrait" }}">Portrait</a></li>
-            <li><a href="{{ absURL "tags/acrylic" }}">Acrylic</a></li>
-            <li><a href="{{ absURL "tags/oil" }}">Oil</a></li>
-            <li><a href="{{ absURL "tags/drawing" }}">Drawing</a></li>
+            {{ partial "menuitem" (dict "page" . "item" "Landscape" "link" "tags/landscape") }}
+            {{ partial "menuitem" (dict "page" . "item" "Flowers" "link" "tags/flowers") }}
+            {{ partial "menuitem" (dict "page" . "item" "Portrait" "link" "tags/portrait") }}
+            {{ partial "menuitem" (dict "page" . "item" "Acrylic" "link" "tags/acrylic") }}
+            {{ partial "menuitem" (dict "page" . "item" "Oil" "link" "tags/oil") }}
+            {{ partial "menuitem" (dict "page" . "item" "Drawing" "link" "tags/drawing") }}
             <li class="instagram-button">
                 <a href="https://instagram.com/ela.mw">
                     <img src="{{ absURL "images/instagram-glyph-logo_May2016.png" }}" alt="Insta" title="Elizabeth's instagram profile" />
