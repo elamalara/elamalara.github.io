@@ -154,9 +154,20 @@ header > .content > .title {
 }
 
 .grid > .art {
-    width: 220px;
-    margin: 5px;
-    padding: 0;
+    width: 33%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1px;
+}
+
+.grid > .art > .picture {
+    /* Purpose of this is to vertically align
+    image within the square.
+    See https://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-a-div
+    and continue the job */
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .grid > .art > .description {
