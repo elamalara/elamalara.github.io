@@ -140,7 +140,7 @@ header > .content > .title {
     }
 }
 
-section {
+.art {
     width: 700px;
     max-width: 100%;
     margin: 2.4em auto 1.2em auto;
@@ -153,26 +153,46 @@ section {
     align-items: flex-start;
 }
 
-article {
+.grid > .art {
+    width: 220px;
+    margin: 5px;
+    padding: 0;
+}
+
+.grid > .art > .description {
+    display: none;
+}
+
+article.intro {
     width: 700px;
     max-width: 100%;
     margin: 2.4em auto 1.2em auto;
-
     line-height: 1.5em;
 }
 
+article.intro > p + p {
+    text-indent: 1em;
+}
+
+section.artlist {
+    width: 700px;
+    max-width: 100%;
+    margin: 2.4em auto 1.2em auto;
+}
+
+section.artlist.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 780px) {
-    section {
+    .art {
         padding: 0;
         margin: 1.5em auto 1.5em auto;
     }
-    article {
+    .intro {
         margin: 1.5em auto 1em auto;
     }
-}
-
-article > p + p {
-    text-indent: 1em;
 }
 
 .description p {
@@ -185,7 +205,7 @@ article > p + p {
     align-self: center;
 }
 
-.list .picture img {
+.artlist .picture img {
     width: 700px;
     max-width: 100%;
 }
