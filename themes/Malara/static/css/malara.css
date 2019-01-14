@@ -83,6 +83,7 @@ header > .content > .title {
 }
 
 #menu-toggle-button {
+    /* inspired by https://codepen.io/erikterwan/pen/EVzeRP?editors=0100 */
     display: none;
     width: 80px;
     height: 29px;
