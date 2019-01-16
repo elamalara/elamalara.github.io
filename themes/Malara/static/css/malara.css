@@ -266,17 +266,50 @@ header {
 
 /* --- Front page specific --- */
 
-.signature {
-    margin: 0 -1em 0 2em;
+#homepage-content {
+    margin: 2.4em 0 1.2em 0;
+
+    display: flex;
+    flex-direction: row;
 }
 
-#introductionImage {
-    margin: 1em 0;
+#introduction-image {
+    margin-top: 0.2em;
     padding: 1px;
     border: 1px solid;
     border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
-    max-width: 15em;
-    align: center;
+    width: 293px;
+    height: 293px;
+    margin-right: 28px;
+}
+
+#homepage {
+    line-height: 1.5em;
+}
+
+#homepage > p:first-child {
+    margin: 0; /* we need the same margin as image */
+}
+
+#homepage > p + p {
+    text-indent: 1em;
+}
+
+@media (max-width: 700px) {
+    #homepage-content {
+        flex-direction: column;
+    }
+
+    #homepage {
+        margin: 1.5em 0 1em 0;
+    }
+
+    #introduction-image {
+        align-self: center;
+        margin-right: 0;
+        max-width: 80%;
+        height: auto;
+    }
 }
 
 /* --- Footer --- */

@@ -1,0 +1,6 @@
+{{/* usage: {{ partial "alltags.html" . }} */}}
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    {{ with $.Site.GetPage (printf "/tags/%s" $name) }}
+        <span><a href="{{ .Permalink }}">{{ $name }}</a></span>
+    {{ end }}
+{{ end }}
