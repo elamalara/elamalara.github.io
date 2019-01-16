@@ -1,6 +1,5 @@
-head {
-    margin: 0;
-}
+/* --- Global --- */
+
 body {
     margin: 0;
     font-size: 1.2em;
@@ -8,53 +7,63 @@ body {
 
 a {
     text-decoration: none;
-    font-weight: bold;
     color: #000;
 }
 
 a.match {
-    text-decoration: underline dotted;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
 }
 
+/* --- Header --- */
+
 header {
-    padding-top: 0.1em;
-    border-bottom: 1px solid #eee;
+    max-width: 700px;
+    margin: 1.5em auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-header > .content {
-    max-width: 700px;
-    margin: 0.7em auto 0.3em auto;
-    height: 2em;
+#line1 {
+    margin-bottom: 1.5em;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-header > .content > .title {
+#line1-left {
+    width: 100px;
+}
+
+#title {
     font-size: 1.5em;
+    font-weight: bold;
     letter-spacing: -0.04em;
     font-kerning: normal;
 }
 
-.menu-buttons {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
-
-#header-buttons {
-    padding: 0;
-    margin: 0;
-    height: 40px;
+#line1-right {
+    width: 100px;
     display: flex;
+    justify-content: flex-end;
 }
 
-.menu-buttons > a {
-    display: inline-block;
+#line2 {
+    margin-bottom: 0.1em;
+}
+
+#menu-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 #instagram-button {
@@ -141,43 +150,20 @@ header > .content > .title {
     }
 }
 
-.art {
-    width: 700px;
-    max-width: 100%;
-    margin: 2.4em auto 1.2em auto;
-    padding: 40px;
+/* --- main content --- */
 
-    line-height: 1.5em;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+#content {
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.grid > .art {
-    width: 33%;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 1px;
-}
-
-.grid > .art > .picture {
-    /* Purpose of this is to vertically align
-    image within the square.
-    See https://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-a-div
-    and continue the job */
-    display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.grid > .art > .description {
-    display: none;
+@media (max-width: 780px) {
+    #content {
+        margin: 1em 0.5em;
+    }
 }
 
 article.intro {
-    width: 700px;
-    max-width: 100%;
     margin: 2.4em auto 1.2em auto;
     line-height: 1.5em;
 }
@@ -187,8 +173,6 @@ article.intro > p + p {
 }
 
 section.artlist {
-    width: 700px;
-    max-width: 100%;
     margin: 2.4em auto 1.2em auto;
 }
 
@@ -203,8 +187,64 @@ section.artlist.grid {
         margin: 1.5em auto 1.5em auto;
     }
     .intro {
-        margin: 1.5em auto 1em auto;
+        margin: 1.5em 0 1em 0;
+        padding: 0 1em;
     }
+}
+
+.art {
+    max-width: 700px;
+    margin: 2.4em auto 1.2em auto;
+    padding: 40px;
+
+    line-height: 1.5em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.grid > .art {
+    width: 32%;
+    padding-bottom: 32%;
+    padding: 0;
+    margin: 1px;
+    position: relative;
+    background:yellowgreen;
+    /*
+    box-sizing: border-box;
+    margin: 0;
+    display: inline-block;
+    */
+}
+
+.grid > .art:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+    background:blue;
+}
+
+.grid > .art > .picture {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*background: green;*/
+    /* Purpose of this is to vertically align
+    image within the square.
+    See https://stackoverflow.com/questions/7273338/how-to-vertically-align-an-image-inside-a-div
+    and continue the job */
+    /*
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    */
+}
+
+.grid > .art > .description {
+    display: none;
 }
 
 .description p {
