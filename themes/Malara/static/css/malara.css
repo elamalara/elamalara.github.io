@@ -40,7 +40,7 @@ header {
 }
 
 #line1-left {
-    width: 100px;
+    width: 200px;
 }
 
 #title {
@@ -51,7 +51,7 @@ header {
 }
 
 #line1-right {
-    width: 100px;
+    width: 200px;
     display: flex;
     justify-content: flex-end;
 }
@@ -87,19 +87,18 @@ header {
     height: 29px;
 }
 
-.menu-buttons a {
+#menu-buttons a {
     font-size: 0.9em;
     letter-spacing: -0.02em;
-    margin: 0 0.2em;
+    padding: 0.5em;
 }
 
 #menu-toggle-button {
     /* inspired by https://codepen.io/erikterwan/pen/EVzeRP?editors=0100 */
     display: none;
     width: 80px;
-    height: 29px;
-    margin-left: 0.2em;
-    margin-right: 0.2em;
+    height: 100%;
+    margin-right: 0em;
     position: relative;
 }
 
@@ -123,11 +122,11 @@ header {
     z-index: 2;
 }
 
-#menu-toggle-button input:checked ~ .menu-buttons.mobile {
+#menu-toggle-button input:checked ~ #mobile-buttons {
     display: block;
 }
 
-.menu-buttons.mobile {
+#mobile-buttons {
     position: absolute;
     top: 40px;
     right: 0px;
@@ -137,7 +136,7 @@ header {
     border: 1px solid #eee;
 }
 
-.menu-buttons.mobile li {
+#mobile-buttons div {
     padding: 0.5em 0.8em;
     width: 100px;
     border-bottom: 1px solid #eee;
@@ -147,7 +146,10 @@ header {
     #menu-toggle-button {
         display: block;
     }
-    .menu-buttons {
+    #menu-buttons {
+        display: none;
+    }
+    #line2 {
         display: none;
     }
 }
