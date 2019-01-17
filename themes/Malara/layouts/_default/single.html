@@ -10,9 +10,6 @@
         <p class="tags">See other art in
         {{ range .tags }}
             <span><a href="/tags/{{ urlize . }}">{{ . }}</a></span>
-            {{ with $.Site.GetPage (printf "/tags/%s" .) }}
-                <span><a href="{{ .Permalink }}">{{ .Title }}</a></span>
-            {{ end }}
         {{end}}
         </p>
     </div>
