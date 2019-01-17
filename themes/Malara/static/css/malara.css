@@ -134,13 +134,14 @@ header {
     display: none;
     z-index: 1;
     background: #fff;
-    border: 1px solid #eee;
+    border: 1px solid #aaa;
 }
 
 #mobile-buttons div {
-    padding: 0.5em 0.8em;
+    padding: 0.6em 1.2em;
     width: 100px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
 }
 
 @media (max-width: 935px) {
