@@ -254,6 +254,10 @@ header {
     letter-spacing: -0.02em;
 }
 
+.tags > span {
+    font-weight: bold;
+}
+
 .title {
     font-weight: bold;
 }
