@@ -41,7 +41,13 @@ header {
 }
 
 #line1-left {
-    width: 200px;
+    width: 160px;
+}
+
+@media (max-width: 440px) {
+    #line1-left {
+        width: 1em;
+    }   
 }
 
 #title {
@@ -52,7 +58,7 @@ header {
 }
 
 #line1-right {
-    width: 200px;
+    width: 160px;
     display: flex;
     justify-content: flex-end;
 }
@@ -196,16 +202,92 @@ header {
     object-fit: cover;
 }
 
+.art > .description {
+    display: none;
+}
+
 @media (max-width: 935px) {
     #content {
         margin: 0 0.5em;
     }
-
     #intro {
-        margin: 1.5em 0 1em 0;
-        padding: 0 1em;
+        margin: 1.5em auto 1em auto;
     }
+    #homepage {
+        margin: 1.5em auto 1em auto;
+    }
+}
 
+@media (max-width: 935px) and (min-width: 725px) {
+    #artlist {
+        margin: 1.5em auto;
+        max-width: 702px;
+    }
+    .art {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 21px;
+    }
+    .art img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 725px) and (min-width: 590px) {
+    #artlist {
+        margin: 1.5em auto;
+        max-width: 560px;
+    }
+    .art {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .art img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* if the 360 <= width <= 935, in landscape do this: */
+@media (max-width: 590px) and (min-width: 360px) {
+    body {
+        font-size: 1.2em;
+    }
+    #artlist {
+        margin: 1em auto;
+        width: 360px;
+    }
+    .art {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 10px;
+    }
+    .art img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+/* Landscape iphone 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+landscape google pixel
+and (device-width: 360px) */
+
+/* single column view for portrait devices with width <= 660px
+    and landscape devices with width < 360px */
+@media (max-width: 359px) {
+    body {
+        font-size: 0.9em;
+    }
+    /* single column of images */
     #artlist {
         margin: 1.5em 0.5em;
 
@@ -230,19 +312,13 @@ header {
         width: 100%;
         height: auto;
     }
-}
 
-/* --- Main content: art detail -- */
-
-.art > .description {
-    display: none;
-}
-
-@media (max-width: 935px) {
     .art > .description {
         display: block;
     }
 }
+
+/* --- Main content: art detail -- */
 
 .description p {
     max-width: 400px;
