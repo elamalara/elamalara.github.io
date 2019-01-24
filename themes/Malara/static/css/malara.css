@@ -335,6 +335,10 @@ and (device-width: 360px) */
     font-weight: bold;
 }
 
+.tags > span:not(:last-child) ::after {
+    content: ", ";
+}
+
 .title {
     font-weight: bold;
 }

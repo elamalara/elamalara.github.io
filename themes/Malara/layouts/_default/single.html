@@ -7,7 +7,7 @@
     <div class="description">
         <p class="title">{{.title}}</p>
         <p class="description">{{.description}}</p>
-        <p class="tags">See other art in
+        <p class="tags">See other artwork in
         {{ range .tags }}
             <span><a href="/tags/{{ urlize . }}">{{ . }}</a></span>
         {{end}}
