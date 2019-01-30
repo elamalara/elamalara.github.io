@@ -107,6 +107,7 @@ header {
     height: 100%;
     margin-right: 0em;
     position: relative;
+    letter-spacing: 0.02em;
 }
 
 #menu-toggle-button span {
@@ -135,7 +136,7 @@ header {
 
 #mobile-buttons {
     position: absolute;
-    top: 40px;
+    top: 44px;
     right: 0px;
     display: none;
     z-index: 1;
@@ -144,8 +145,7 @@ header {
 }
 
 #mobile-buttons div {
-    padding: 0.6em 1.2em;
-    width: 100px;
+    padding: 0.6em 1.2em 0.6em 2.2em;
     border-bottom: 1px solid #ddd;
     text-align: right;
 }
@@ -159,6 +159,9 @@ header {
     }
     #line2 {
         display: none;
+    }
+    #instagram-button {
+        margin-right: 1.2em;
     }
 }
 
@@ -406,11 +409,12 @@ and (device-width: 360px) */
 
 footer {
     padding-bottom: 0.1em;
+    margin: 1.5em 0.5em;
 }
 
 footer > .content {
     max-width: 935px;
-    margin: 1.5em auto;
+    margin: 0 auto;
     font-size: 0.9em;
 }
 
