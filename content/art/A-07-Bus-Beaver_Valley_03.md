@@ -4,6 +4,6 @@ title = "Bus"
 weight = 0
 description = ""
 availability = ""
-tags = ["acrylic"]
+tags = ["acrylic", "landscape"]
 sets = ["beaver-valley"]
 +++

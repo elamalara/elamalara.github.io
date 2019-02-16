@@ -4,6 +4,6 @@ title = "Before the Storm 1"
 weight = 0
 description = "Sold"
 availability = ""
-tags = ["acrylic"]
+tags = ["acrylic", "landscape"]
 sets = ["before-storm"]
 +++
