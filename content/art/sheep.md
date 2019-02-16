@@ -4,5 +4,5 @@ title = "Sheep"
 weight = 0
 description = ""
 availability = ""
-tags = ["Drawing"]
+tags = ["drawing"]
 +++

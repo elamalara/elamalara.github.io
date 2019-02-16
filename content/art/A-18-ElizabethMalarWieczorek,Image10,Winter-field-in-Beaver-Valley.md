@@ -4,5 +4,5 @@ title = "Winter Field in Beaver Valley"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

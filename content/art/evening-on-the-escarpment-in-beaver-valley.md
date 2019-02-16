@@ -4,5 +4,5 @@ title = "Evening on the escaprmpent in Beaver Valley"
 weight = 0
 description = "Acrylic."
 availability = ""
-tags = ["Acrylic", "Featured"]
+tags = ["acrylic", "featured"]
 +++

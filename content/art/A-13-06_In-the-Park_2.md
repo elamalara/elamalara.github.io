@@ -4,6 +4,6 @@ title = "In The Park - 2"
 weight = 0
 description = "Sold"
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 sets = ["in-the-park"]
 +++

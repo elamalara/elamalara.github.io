@@ -4,5 +4,5 @@ title = "Pasture in a way to Tobermory"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

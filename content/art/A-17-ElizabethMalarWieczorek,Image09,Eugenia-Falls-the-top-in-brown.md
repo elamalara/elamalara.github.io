@@ -4,5 +4,5 @@ title = "Eugenia Falls - The Top in Brown"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

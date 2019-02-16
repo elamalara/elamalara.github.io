@@ -4,5 +4,5 @@ title = "Still life with a white page"
 weight = 0
 description = "Oil on canvas"
 availability = ""
-tags = ["Archive"]
+tags = ["archive"]
 +++

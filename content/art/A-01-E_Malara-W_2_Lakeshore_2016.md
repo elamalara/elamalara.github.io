@@ -4,5 +4,5 @@ title = "Lakeshore Twilight"
 weight = 0
 description = "In private collection"
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

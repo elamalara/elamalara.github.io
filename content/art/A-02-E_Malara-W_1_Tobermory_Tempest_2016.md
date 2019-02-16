@@ -4,5 +4,5 @@ title = "Tobermory Tempest - Lighthouse"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

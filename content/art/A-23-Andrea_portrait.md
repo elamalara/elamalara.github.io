@@ -4,5 +4,5 @@ title = "Portrait of Andrea"
 weight = 0
 description = "Commissioned"
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

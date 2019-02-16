@@ -4,6 +4,6 @@ title = "Polish plainscape 3"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 sets = ["polish-plainscape"]
 +++

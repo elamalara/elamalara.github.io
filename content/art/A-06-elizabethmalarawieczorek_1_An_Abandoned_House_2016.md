@@ -4,5 +4,5 @@ title = "An Abandoned House - Halton"
 weight = 0
 description = "Sold"
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

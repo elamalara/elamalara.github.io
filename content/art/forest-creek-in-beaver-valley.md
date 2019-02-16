@@ -4,5 +4,5 @@ title = "Forest creek in Beavery Valley"
 weight = 0
 description = ""
 availability = ""
-tags = ["Oil"]
+tags = ["oil"]
 +++

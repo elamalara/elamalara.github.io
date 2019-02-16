@@ -4,5 +4,5 @@ title = "Rose in green vase"
 weight = 0
 description = ""
 availability = ""
-tags = ["Oil"]
+tags = ["oil"]
 +++

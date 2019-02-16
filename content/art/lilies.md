@@ -2,7 +2,7 @@
 image = "lilies.jpg"
 title = "Lilies"
 weight = 0
-description = "Acrylic"
+description = "acrylic"
 availability = ""
-tags = ["Acrylic", "Featured"]
+tags = ["acrylic", "featured"]
 +++

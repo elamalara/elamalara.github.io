@@ -4,5 +4,5 @@ title = "Deep Cove - Vancouver"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

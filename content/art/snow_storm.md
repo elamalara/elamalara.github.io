@@ -4,5 +4,5 @@ title = "The snow storm"
 weight = 0
 description = "Oil on a wooden plank"
 availability = ""
-tags = ["Archive"]
+tags = ["archive"]
 +++

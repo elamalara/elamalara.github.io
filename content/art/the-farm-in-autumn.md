@@ -4,5 +4,5 @@ title = "The farm in Autumn"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

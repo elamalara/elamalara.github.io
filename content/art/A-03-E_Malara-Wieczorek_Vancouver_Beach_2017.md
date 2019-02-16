@@ -4,5 +4,5 @@ title = "Vancouver Beach"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

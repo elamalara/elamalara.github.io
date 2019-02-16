@@ -15,7 +15,10 @@
         {{ end }}
         <p class="tags">See other artwork in
         {{ range .tags }}
-            <span><a href="/tags/{{ urlize . }}">{{ . }}</a></span>
+            {{ $tagName := . }}
+            {{ with $.Site.GetPage (printf "/tags/%s" $tagName) }}
+                <span><a href="/tags/{{ urlize $tagName }}">{{ .Title }}</a></span>
+            {{ end }}
         {{end}}
         </p>
     </div>
