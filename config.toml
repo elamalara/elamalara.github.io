@@ -2,3 +2,7 @@ baseURL = "http://malara.ca/"
 languageCode = "en-us"
 title = "Ella Malara"
 theme = "Malara"
+
+[taxonomies]
+  set = "sets"
+  tag = "tags"
