@@ -5,5 +5,5 @@ weight = 0
 description = ""
 availability = ""
 tags = ["Acrylic"]
-sets = ["Polish Plainscape"]
+sets = ["polish-plainscape"]
 +++
