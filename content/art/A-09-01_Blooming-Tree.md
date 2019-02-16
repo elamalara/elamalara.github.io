@@ -5,4 +5,5 @@ weight = 0
 description = ""
 availability = ""
 tags = ["Acrylic"]
+sets = ["beaver-valley"]
 +++

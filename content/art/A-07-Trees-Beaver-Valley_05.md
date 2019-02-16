@@ -1,6 +1,6 @@
 +++
-image = "A-09-02_Barn_BV.jpg"
-title = "Barn in Beaver Valley"
+image = "A-07-Trees-Beaver_Valley_04.jpg"
+title = "Trees"
 weight = 0
 description = ""
 availability = ""

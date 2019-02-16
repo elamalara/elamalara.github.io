@@ -5,4 +5,5 @@ weight = 0
 description = "Sold"
 availability = ""
 tags = ["Acrylic"]
+sets = ["in-the-park"]
 +++
