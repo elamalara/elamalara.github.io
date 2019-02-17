@@ -4,5 +4,5 @@ title = "Winter creek in Beaver Valley"
 weight = 0
 description = ""
 availability = ""
-tags = ["Oil"]
+tags = ["oil"]
 +++

@@ -4,5 +4,5 @@ title = "Old Abandoned House in Halton"
 weight = 0
 description = "2011, Oil on Gallery Canvas, 12'' x 12'', Sold"
 availability = ""
-tags = ["Oil"]
+tags = ["oil"]
 +++

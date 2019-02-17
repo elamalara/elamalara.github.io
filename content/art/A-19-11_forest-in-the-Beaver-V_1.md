@@ -4,5 +4,5 @@ title = "The Forest in Beaver Valley 1"
 weight = 0
 description = "Sold"
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

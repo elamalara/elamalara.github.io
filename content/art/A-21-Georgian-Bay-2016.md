@@ -4,5 +4,5 @@ title = "Georgian Bay"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

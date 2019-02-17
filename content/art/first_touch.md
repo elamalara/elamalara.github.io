@@ -4,5 +4,5 @@ title = "The first touch"
 weight = 0
 description = "Oil on canvas, 120 x 100 in"
 availability = ""
-tags = ["Archive"]
+tags = ["archive"]
 +++

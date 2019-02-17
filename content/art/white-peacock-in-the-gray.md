@@ -4,5 +4,5 @@ title = "White peacock in the gray"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

@@ -4,5 +4,5 @@ title = "Blue Birds II"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

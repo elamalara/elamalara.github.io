@@ -4,5 +4,5 @@ title = "Blossom"
 weight = 0
 description = "24 x 17 cm"
 availability = ""
-tags = ["Archive"]
+tags = ["archive"]
 +++

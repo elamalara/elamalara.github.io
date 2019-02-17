@@ -4,5 +4,5 @@ title = "Mrs Magda I"
 weight = 0
 description = ""
 availability = ""
-tags = ["Oil", "Portrait"]
+tags = ["oil", "portrait"]
 +++

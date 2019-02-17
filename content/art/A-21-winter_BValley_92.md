@@ -4,5 +4,5 @@ title = "Red House in Beaver Valley, I"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic"]
 +++

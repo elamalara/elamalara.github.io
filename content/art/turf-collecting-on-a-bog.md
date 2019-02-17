@@ -4,5 +4,5 @@ title = "Collecting turf on a bog"
 weight = 0
 description = ""
 availability = ""
-tags = ["Drawing"]
+tags = ["drawing"]
 +++

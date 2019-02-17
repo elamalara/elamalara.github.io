@@ -4,5 +4,6 @@ title = "Blooming Tree"
 weight = 0
 description = ""
 availability = ""
-tags = ["Acrylic"]
+tags = ["acrylic", "landscape"]
+sets = ["beaver-valley"]
 +++

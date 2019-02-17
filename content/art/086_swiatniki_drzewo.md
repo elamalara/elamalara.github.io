@@ -4,5 +4,5 @@ title = "Fall Colors"
 weight = 0
 description = "42 x 56 cm"
 availability = ""
-tags = ["Archive"]
+tags = ["archive"]
 +++

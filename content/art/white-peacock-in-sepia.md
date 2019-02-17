@@ -2,7 +2,7 @@
 image = "white-peacock-in-sepia.jpg"
 title = "White peacock in sepia"
 weight = 0
-description = "Acrylic"
+description = "acrylic"
 availability = ""
-tags = ["Acrylic", "Featured"]
+tags = ["acrylic", "featured"]
 +++

@@ -5,5 +5,5 @@ date = 2016-12-12
 weight = 0
 description = "2016, Acrylic on Gallery Canvas, 12'' x 12'', Sold"
 availability = ""
-tags = ["Acrylic", "Landscape"]
+tags = ["acrylic", "landscape"]
 +++
