@@ -4,5 +4,5 @@ title = "Mrs. Carol"
 weight = 0
 description = ""
 availability = ""
-tags = ["Drawing"]
+tags = ["Drawing", "Portrait"]
 +++

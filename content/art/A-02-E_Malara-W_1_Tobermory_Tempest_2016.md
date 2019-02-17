@@ -1,8 +1,9 @@
 +++
-image = "A-02-E_Malara-W_1_Tobermory_Tempest_2016.jpg"
-title = "Tobermory Tempest - Lighthouse"
-weight = 0
-description = ""
+image = ""
+title = ""
+date = ""
+weight = ""
+description = "2016, Acrylic on Gallery Canvas, 12\" x 12'', Sold"
 availability = ""
-tags = ["Acrylic"]
+tags = [""]
 +++

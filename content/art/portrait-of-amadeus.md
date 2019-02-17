@@ -4,5 +4,5 @@ title = "Portrait of Amadeus"
 weight = 0
 description = ""
 availability = ""
-tags = ["Drawing"]
+tags = ["Drawing", "Portrait"]
 +++
