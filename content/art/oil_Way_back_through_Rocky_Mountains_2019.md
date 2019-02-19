@@ -5,5 +5,5 @@ weight = 0
 date = 2019-01-01
 description = "oil"
 availability = ""
-tags = ["oil", "landscape"]
+tags = ["oil", "landscape", "featured"]
 +++
