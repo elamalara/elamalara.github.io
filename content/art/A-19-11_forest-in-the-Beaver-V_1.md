@@ -2,7 +2,7 @@
 image = "A-19-11_forest-in-the-Beaver-V_1.jpg"
 title = "The Forest in Beaver Valley 1"
 weight = 0
-description = "Sold"
+description = "2011, Acrylic on Gallery Canvas, 12\" x 12\", Sold"
 availability = ""
 tags = ["acrylic"]
 +++
