@@ -1,8 +1,9 @@
 +++
 image = "O-04-elizabethmalarawieczorek03.jpg"
 title = "DeCew Falls"
-weight = 0
+weight = 9
+date = 2017-01-01
 description = ""
 availability = ""
-tags = ["oil"]
+tags = ["oil", "landscape"]
 +++

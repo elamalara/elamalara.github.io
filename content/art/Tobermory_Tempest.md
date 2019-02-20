@@ -1,8 +1,9 @@
 +++
 image = "oil_Tobermory_Tempest.jpg"
 title = "Tobermory_Tempest"
-weight = 0
+weight = 7
+date = 2018-01-01
 description = "Oil."
 availability = ""
-tags = ["featured", "oil"]
+tags = ["featured", "oil", "landscape"]
 +++

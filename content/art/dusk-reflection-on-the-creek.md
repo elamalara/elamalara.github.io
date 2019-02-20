@@ -1,7 +1,8 @@
 +++
 image = "dusk-reflection-on-the-creek.jpg"
 title = "Dusk reflection on the creek"
-weight = 0
+weight = 3
+date = 2014-01-01
 description = ""
 availability = ""
 tags = ["oil"]

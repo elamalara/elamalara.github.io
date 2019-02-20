@@ -1,8 +1,8 @@
 +++
 image = "darek.jpg"
 title = "Darek"
-weight = 06
-date = 2018-10-12
+weight = 2
+date = 2017-10-12
 description = ""
 availability = ""
 tags = ["drawing", "portrait"]
