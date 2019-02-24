@@ -191,6 +191,17 @@ header {
     justify-content: space-between;
 }
 
+/* A crude way to list items. We're not linking to this, but user can see it by entering a URL */
+#longlist {
+    width: 293px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#longlist > article {
+    margin-bottom: 2em;
+}
+
 .art {
     width: 293px;
     height: 293px;
