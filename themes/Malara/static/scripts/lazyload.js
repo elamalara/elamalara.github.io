@@ -2,7 +2,7 @@
 // source: https://www.sitepoint.com/five-techniques-lazy-load-images-website-performance/
 
 const config = {
-    rootMargin: '50px 0px',
+    rootMargin: '300px 0px',
     threshold: 0
 };
 
