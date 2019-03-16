@@ -1,4 +1,7 @@
 {{ define "content" }}
+    {{ if .Title }}
+    <h1 class="mobile-breadcrumb">{{ .Title}}</h1>
+    {{ end }}
     {{ if .Content }}
     <article id="intro">
         <!-- pulls from the markdown content of the corresponding _index.md -->

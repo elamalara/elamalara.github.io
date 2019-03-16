@@ -172,6 +172,18 @@ header {
     margin: 0 auto;
 }
 
+.mobile-breadcrumb {
+    display: none;
+
+    max-width: 610px;
+    margin: 2.4em auto 1.2em auto;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    font-kerning: normal;
+}
+
 #intro {
     max-width: 610px;
     margin: 2.4em auto 1.2em auto;
@@ -223,6 +235,10 @@ header {
 @media (max-width: 935px) {
     #content {
         margin: 0 0.5em;
+    }
+    .mobile-breadcrumb {
+        display: block;
+        margin: 1.5em auto 1em auto;
     }
     #intro {
         margin: 1.5em auto 1em auto;
