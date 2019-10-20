@@ -403,6 +403,12 @@ and (device-width: 360px) */
     margin-right: 28px;
 }
 
+#introduction-image > img {
+    width: 293px;
+    height: 293px;
+    object-fit: contain;
+}
+
 #homepage {
     line-height: 1.5em;
 }
