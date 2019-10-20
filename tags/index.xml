@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Ella Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://malara.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -24,7 +24,7 @@
     <item>
       <title>Drawing</title>
       <link>http://malara.ca/tags/drawing/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/tags/drawing/</guid>
       <description>Drawing evolved from a sketch into an illustration and gives me more and more independent form of expression to allow me to search the means for not only a record of impressions and observations, but also to capture the emotions and thoughts of the heroes of my drawings.</description>
@@ -42,7 +42,7 @@
     <item>
       <title>Acrylic</title>
       <link>http://malara.ca/tags/acrylic/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 -0800</pubDate>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/tags/acrylic/</guid>
       <description>Acrylic is an instant and rapid technique for me, giving a wonderful texture, which will produce so many different results. In my paintings I&amp;rsquo;m fascinated by the similarity of acrylic texture to the embroidery, where I am weaving the matter of painting, weaving colors.</description>
@@ -85,24 +85,6 @@
     </item>
     
     <item>
-      <title>Introduction</title>
-      <link>http://malara.ca/tags/featured/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/tags/featured/</guid>
-      <description>Admiration of the beauty that surrounds me gives meaning to my life and action. I have experienced this feeling since I was young and I can gladly say that over the years, it is still blooming in me. As an artist, I try to transfer onto canvas, by means of colors and textures, brush, palette knife, pen or pencil all that fascinates me. Nature is my inspiration; whether it be the changing seasons, still life or portraits.</description>
-    </item>
-    
-    <item>
-      <title>Archive</title>
-      <link>http://malara.ca/tags/archive/</link>
-      <pubDate>Mon, 01 Jan 1990 00:00:00 -0800</pubDate>
-      
-      <guid>http://malara.ca/tags/archive/</guid>
-      <description>A collection of my works from 1988 to 2008, the period of academic and post-academic studies. Most of the works are done upon nature observation, as well as a few copies made in museums. There are also embroidery and painting compositions, showing my inclinations toward symbolic themes.</description>
-    </item>
-    
-    <item>
       <title>Embroidery</title>
       <link>http://malara.ca/tags/embroidery/</link>
       <pubDate>Wed, 02 Jan 2019 00:00:00 -0800</pubDate>
@@ -112,7 +94,16 @@
     </item>
     
     <item>
-      <title>Ontario</title>
+      <title>Introduction</title>
+      <link>http://malara.ca/tags/featured/</link>
+      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://malara.ca/tags/featured/</guid>
+      <description>Admiration of the beauty that surrounds me gives meaning to my life and action. I have experienced this feeling since I was young and I can gladly say that over the years, it is still blooming in me. As an artist, I try to transfer onto canvas, by means of colors and textures, brush, palette knife, pen or pencil all that fascinates me. Nature is my inspiration; whether it be the changing seasons, still life or portraits.</description>
+    </item>
+    
+    <item>
+      <title>ontario</title>
       <link>http://malara.ca/tags/ontario/</link>
       <pubDate>Wed, 12 Oct 2016 00:00:00 -0700</pubDate>
       
@@ -121,12 +112,21 @@
     </item>
     
     <item>
-      <title>Tobermory</title>
+      <title>tobermory</title>
       <link>http://malara.ca/tags/tobermory/</link>
       <pubDate>Wed, 12 Oct 2016 00:00:00 -0700</pubDate>
       
       <guid>http://malara.ca/tags/tobermory/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Archive</title>
+      <link>http://malara.ca/tags/archive/</link>
+      <pubDate>Sun, 01 Jan 1995 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/tags/archive/</guid>
+      <description>A collection of my works from 1988 to 2008, the period of academic and post-academic studies. Most of the works are done upon nature observation, as well as a few copies made in museums. There are also embroidery and painting compositions, showing my inclinations toward symbolic themes.</description>
     </item>
     
   </channel>

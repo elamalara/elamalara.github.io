@@ -93,15 +93,6 @@
     </item>
     
     <item>
-      <title>Blue birds</title>
-      <link>http://malara.ca/art/blue-birds/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
-      
-      <guid>http://malara.ca/art/blue-birds/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Mrs Magda I</title>
       <link>http://malara.ca/art/mrs-magda-i/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
@@ -116,6 +107,15 @@
       <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/mrs-magda-ii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blue birds</title>
+      <link>http://malara.ca/art/blue-birds/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/blue-birds/</guid>
       <description></description>
     </item>
     
@@ -156,20 +156,20 @@
     </item>
     
     <item>
-      <title>Spring Thaw</title>
-      <link>http://malara.ca/art/o-12-elizabethmalarawieczorek10/</link>
-      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
-      
-      <guid>http://malara.ca/art/o-12-elizabethmalarawieczorek10/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Sunset at the Lakeshore</title>
       <link>http://malara.ca/art/o-01-elizabethmalarawieczorek01/</link>
       <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/o-01-elizabethmalarawieczorek01/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spring Thaw</title>
+      <link>http://malara.ca/art/o-12-elizabethmalarawieczorek10/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/o-12-elizabethmalarawieczorek10/</guid>
       <description></description>
     </item>
     

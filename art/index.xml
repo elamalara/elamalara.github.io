@@ -687,6 +687,15 @@
     </item>
     
     <item>
+      <title>Before the storm</title>
+      <link>http://malara.ca/art/before_the_storm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://malara.ca/art/before_the_storm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Before the Storm 1</title>
       <link>http://malara.ca/art/before_storm_dyptych_01/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -701,15 +710,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://malara.ca/art/before_storm_dyptych_02/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Before the storm</title>
-      <link>http://malara.ca/art/before_the_storm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/before_the_storm/</guid>
       <description></description>
     </item>
     
@@ -1353,24 +1353,6 @@
     </item>
     
     <item>
-      <title>The Forest in Beaver Valley 1</title>
-      <link>http://malara.ca/art/a-19-11_forest-in-the-beaver-v_1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/a-19-11_forest-in-the-beaver-v_1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Forest in Beaver Valley 2</title>
-      <link>http://malara.ca/art/a-20-12_forest-in-the-beaver-v_2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/a-20-12_forest-in-the-beaver-v_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>The cracked pumpkin</title>
       <link>http://malara.ca/art/cracked_pumpkin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1394,6 +1376,24 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://malara.ca/art/first_touch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Forest in Beaver Valley 1</title>
+      <link>http://malara.ca/art/a-19-11_forest-in-the-beaver-v_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://malara.ca/art/a-19-11_forest-in-the-beaver-v_1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Forest in Beaver Valley 2</title>
+      <link>http://malara.ca/art/a-20-12_forest-in-the-beaver-v_2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://malara.ca/art/a-20-12_forest-in-the-beaver-v_2/</guid>
       <description></description>
     </item>
     
@@ -1587,15 +1587,6 @@
     </item>
     
     <item>
-      <title>White Rose in the grass</title>
-      <link>http://malara.ca/art/073_roza/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/073_roza/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>White peacock in sepia</title>
       <link>http://malara.ca/art/white-peacock-in-sepia/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1610,6 +1601,15 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://malara.ca/art/white-peacock-in-the-gray/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>White Rose in the grass</title>
+      <link>http://malara.ca/art/073_roza/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://malara.ca/art/073_roza/</guid>
       <description></description>
     </item>
     
