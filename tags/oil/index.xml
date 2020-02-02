@@ -1,22 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Oil on Ella Malara</title>
+    <title>Oil on Elizabeth Malara</title>
     <link>http://malara.ca/tags/oil/</link>
-    <description>Recent content in Oil on Ella Malara</description>
+    <description>Recent content in Oil on Elizabeth Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://malara.ca/tags/oil/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Portrait in Red</title>
+      <link>http://malara.ca/art/01_2020_amadeusz_misiu/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_amadeusz_misiu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joffre Lake Intermission II</title>
+      <link>http://malara.ca/art/01_2020_joffre_lake_intermission_ii/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_joffre_lake_intermission_ii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joffre Lake Intermission V</title>
+      <link>http://malara.ca/art/01_2020_joffre_lake_intermission_v/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_joffre_lake_intermission_v/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Way back through Rocky Mountains</title>
       <link>http://malara.ca/art/oil_way_back_through_rocky_mountains_2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/oil_way_back_through_rocky_mountains_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tobermory_Tempest</title>
+      <link>http://malara.ca/art/tobermory_tempest/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/tobermory_tempest/</guid>
       <description></description>
     </item>
     
@@ -62,15 +98,6 @@
       <pubDate>Wed, 01 Jan 2014 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/rose-in-green-vase/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tobermory_Tempest</title>
-      <link>http://malara.ca/art/tobermory_tempest/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
-      
-      <guid>http://malara.ca/art/tobermory_tempest/</guid>
       <description></description>
     </item>
     

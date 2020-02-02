@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Ella Malara</title>
+    <title>Tags on Elizabeth Malara</title>
     <link>http://malara.ca/tags/</link>
-    <description>Recent content in Tags on Ella Malara</description>
+    <description>Recent content in Tags on Elizabeth Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://malara.ca/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Awards</title>
       <link>http://malara.ca/tags/awards/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/tags/awards/</guid>
       <description>I am proud to present you paintings which won prizes and distinctions during juried events.
@@ -42,7 +42,7 @@
     <item>
       <title>Acrylic</title>
       <link>http://malara.ca/tags/acrylic/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/tags/acrylic/</guid>
       <description>Acrylic is an instant and rapid technique for me, giving a wonderful texture, which will produce so many different results. In my paintings I&amp;rsquo;m fascinated by the similarity of acrylic texture to the embroidery, where I am weaving the matter of painting, weaving colors.</description>
@@ -51,7 +51,7 @@
     <item>
       <title>Oil</title>
       <link>http://malara.ca/tags/oil/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/tags/oil/</guid>
       <description>Oil technique is my first love and a safe haven of trusted technique. I like the job with a pallet knife and a dynamic brush stroke and trail. The oil is suitable for both quick and spontaneous work as well as longer contemplation and searching for harmony in the image.</description>
@@ -69,7 +69,7 @@
     <item>
       <title>Landscape</title>
       <link>http://malara.ca/tags/landscape/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/tags/landscape/</guid>
       <description>Nature is the greatest inspiration for me. I really value outdoor painting. Out of necessity, the paintings are continued and finished in the studio, but I cherish capturing original inspiration resulting from direct contact with constant changes of plain air observations.</description>
@@ -78,10 +78,19 @@
     <item>
       <title>Portrait</title>
       <link>http://malara.ca/tags/portrait/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 -0800</pubDate>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/tags/portrait/</guid>
       <description>Portraits are my favorite themes, but I do them rarely, mainly for my friends or as commissioned pictures. It is a special time spent with my model and the specific atmosphere that impressed me deeply. And I am happy when this extra vibe is visible in the works.</description>
+    </item>
+    
+    <item>
+      <title>Introduction</title>
+      <link>http://malara.ca/tags/featured/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/tags/featured/</guid>
+      <description>Admiration of the beauty that surrounds me gives meaning to my life and action. I have experienced this feeling since I was young and I can gladly say that over the years, it is still blooming in me. As an artist, I try to transfer onto canvas, by means of colors and textures, brush, palette knife, pen or pencil all that fascinates me. Nature is my inspiration; whether it be the changing seasons, still life or portraits.</description>
     </item>
     
     <item>
@@ -91,15 +100,6 @@
       
       <guid>http://malara.ca/tags/embroidery/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Introduction</title>
-      <link>http://malara.ca/tags/featured/</link>
-      <pubDate>Wed, 02 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/tags/featured/</guid>
-      <description>Admiration of the beauty that surrounds me gives meaning to my life and action. I have experienced this feeling since I was young and I can gladly say that over the years, it is still blooming in me. As an artist, I try to transfer onto canvas, by means of colors and textures, brush, palette knife, pen or pencil all that fascinates me. Nature is my inspiration; whether it be the changing seasons, still life or portraits.</description>
     </item>
     
     <item>

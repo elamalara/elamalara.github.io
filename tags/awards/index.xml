@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Awards on Ella Malara</title>
+    <title>Awards on Elizabeth Malara</title>
     <link>http://malara.ca/tags/awards/</link>
-    <description>Recent content in Awards on Ella Malara</description>
+    <description>Recent content in Awards on Elizabeth Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 28 Jan 2020 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://malara.ca/tags/awards/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Joffre Lake Intermission II</title>
+      <link>http://malara.ca/art/01_2020_joffre_lake_intermission_ii/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_joffre_lake_intermission_ii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Way back through Rocky Mountains</title>
       <link>http://malara.ca/art/oil_way_back_through_rocky_mountains_2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/oil_way_back_through_rocky_mountains_2019/</guid>
       <description></description>
