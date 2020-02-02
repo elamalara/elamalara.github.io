@@ -1,31 +1,76 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Introduction on Ella Malara</title>
+    <title>Introduction on Elizabeth Malara</title>
     <link>http://malara.ca/tags/featured/</link>
-    <description>Recent content in Introduction on Ella Malara</description>
+    <description>Recent content in Introduction on Elizabeth Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://malara.ca/tags/featured/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Portrait in Red</title>
+      <link>http://malara.ca/art/01_2020_amadeusz_misiu/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_amadeusz_misiu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In Wisteria Rain</title>
+      <link>http://malara.ca/art/01_2020_in_wisteria_rain/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_in_wisteria_rain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portrait of Andrea</title>
+      <link>http://malara.ca/art/a-23-andrea_portrait/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/a-23-andrea_portrait/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joffre Lake Intermission II</title>
+      <link>http://malara.ca/art/01_2020_joffre_lake_intermission_ii/</link>
+      <pubDate>Tue, 28 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_joffre_lake_intermission_ii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joffre Lake Intermission V</title>
+      <link>http://malara.ca/art/01_2020_joffre_lake_intermission_v/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_joffre_lake_intermission_v/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Way back through Rocky Mountains</title>
       <link>http://malara.ca/art/oil_way_back_through_rocky_mountains_2019/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 -0800</pubDate>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/oil_way_back_through_rocky_mountains_2019/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Calf - nature illustration</title>
-      <link>http://malara.ca/art/drawing_calf_insta/</link>
-      <pubDate>Mon, 12 Feb 2018 00:00:00 -0800</pubDate>
+      <title>Lakeshore Twilight</title>
+      <link>http://malara.ca/art/lakeshore_twilight/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 -0800</pubDate>
       
-      <guid>http://malara.ca/art/drawing_calf_insta/</guid>
+      <guid>http://malara.ca/art/lakeshore_twilight/</guid>
       <description></description>
     </item>
     
@@ -39,11 +84,38 @@
     </item>
     
     <item>
-      <title>Self portrait</title>
-      <link>http://malara.ca/art/self-portrait/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 -0800</pubDate>
+      <title>Tobermory_Tempest</title>
+      <link>http://malara.ca/art/tobermory_tempest/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
       
-      <guid>http://malara.ca/art/self-portrait/</guid>
+      <guid>http://malara.ca/art/tobermory_tempest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>White peacock in sepia</title>
+      <link>http://malara.ca/art/white-peacock-in-sepia/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/white-peacock-in-sepia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two young goats</title>
+      <link>http://malara.ca/art/01_2020_two_young_goats/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_two_young_goats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>White peacock in the gray</title>
+      <link>http://malara.ca/art/white-peacock-in-the-gray/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/white-peacock-in-the-gray/</guid>
       <description></description>
     </item>
     
@@ -71,15 +143,6 @@
       <pubDate>Fri, 12 Oct 2018 00:00:00 -0700</pubDate>
       
       <guid>http://malara.ca/art/dragon_fruit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tobermory_Tempest</title>
-      <link>http://malara.ca/art/tobermory_tempest/</link>
-      <pubDate>Mon, 01 Jan 2018 00:00:00 -0800</pubDate>
-      
-      <guid>http://malara.ca/art/tobermory_tempest/</guid>
       <description></description>
     </item>
     
@@ -143,15 +206,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://malara.ca/art/sunset-in-the-garden/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>White peacock in sepia</title>
-      <link>http://malara.ca/art/white-peacock-in-sepia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/white-peacock-in-sepia/</guid>
       <description></description>
     </item>
     

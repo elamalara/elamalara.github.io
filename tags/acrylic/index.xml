@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Acrylic on Ella Malara</title>
+    <title>Acrylic on Elizabeth Malara</title>
     <link>http://malara.ca/tags/acrylic/</link>
-    <description>Recent content in Acrylic on Ella Malara</description>
+    <description>Recent content in Acrylic on Elizabeth Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Nov 2018 00:00:00 -0800</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jan 2020 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://malara.ca/tags/acrylic/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>In Wisteria Rain</title>
+      <link>http://malara.ca/art/01_2020_in_wisteria_rain/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_in_wisteria_rain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Portrait of Andrea</title>
+      <link>http://malara.ca/art/a-23-andrea_portrait/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/a-23-andrea_portrait/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lakeshore Twilight</title>
+      <link>http://malara.ca/art/lakeshore_twilight/</link>
+      <pubDate>Thu, 12 Dec 2019 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/lakeshore_twilight/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bouquet of Roses and Gerberas</title>
+      <link>http://malara.ca/art/bouquet-of-roses-and-gerberas/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/bouquet-of-roses-and-gerberas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Deep Cove - Vancouver</title>
@@ -21,20 +57,38 @@
     </item>
     
     <item>
+      <title>White peacock in sepia</title>
+      <link>http://malara.ca/art/white-peacock-in-sepia/</link>
+      <pubDate>Sat, 30 Dec 2017 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/white-peacock-in-sepia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Two young goats</title>
+      <link>http://malara.ca/art/01_2020_two_young_goats/</link>
+      <pubDate>Fri, 31 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/01_2020_two_young_goats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>White peacock in the gray</title>
+      <link>http://malara.ca/art/white-peacock-in-the-gray/</link>
+      <pubDate>Sun, 26 Jan 2020 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/white-peacock-in-the-gray/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Badlands 3</title>
       <link>http://malara.ca/art/badlands_pentaptych_03_16x20/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/badlands_pentaptych_03_16x20/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lakeshore Twilight</title>
-      <link>http://malara.ca/art/a-01-e_malara-w_2_lakeshore_2016/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 -0800</pubDate>
-      
-      <guid>http://malara.ca/art/a-01-e_malara-w_2_lakeshore_2016/</guid>
       <description></description>
     </item>
     
@@ -372,15 +426,6 @@
     </item>
     
     <item>
-      <title>Portrait of Andrea</title>
-      <link>http://malara.ca/art/a-23-andrea_portrait/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/a-23-andrea_portrait/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Red House in Beaver Valley, III</title>
       <link>http://malara.ca/art/red-house-in-beaver-valley-iii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -413,24 +458,6 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://malara.ca/art/a-20-12_forest-in-the-beaver-v_2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>White peacock in sepia</title>
-      <link>http://malara.ca/art/white-peacock-in-sepia/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/white-peacock-in-sepia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>White peacock in the gray</title>
-      <link>http://malara.ca/art/white-peacock-in-the-gray/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://malara.ca/art/white-peacock-in-the-gray/</guid>
       <description></description>
     </item>
     

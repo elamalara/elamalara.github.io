@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Still Life on Ella Malara</title>
+    <title>Still Life on Elizabeth Malara</title>
     <link>http://malara.ca/tags/stilllife/</link>
-    <description>Recent content in Still Life on Ella Malara</description>
+    <description>Recent content in Still Life on Elizabeth Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 01 Jan 2019 00:00:00 -0800</lastBuildDate>
     
 	<atom:link href="http://malara.ca/tags/stilllife/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bouquet of Roses and Gerberas</title>
+      <link>http://malara.ca/art/bouquet-of-roses-and-gerberas/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/bouquet-of-roses-and-gerberas/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Lilies</title>
@@ -89,6 +98,15 @@
       <pubDate>Fri, 12 Jan 1990 00:00:00 -0800</pubDate>
       
       <guid>http://malara.ca/art/brass_kettle/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Iris</title>
+      <link>http://malara.ca/art/a-22-irys_789/</link>
+      <pubDate>Wed, 12 Feb 2014 00:00:00 -0800</pubDate>
+      
+      <guid>http://malara.ca/art/a-22-irys_789/</guid>
       <description></description>
     </item>
     
