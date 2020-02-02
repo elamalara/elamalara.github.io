@@ -1,7 +1,7 @@
 +++
 image = "oil_Tobermory_Tempest.jpg"
 title = "Tobermory_Tempest"
-weight = 7
+weight = 1
 date = 2018-01-01
 description = "Oil."
 availability = ""
