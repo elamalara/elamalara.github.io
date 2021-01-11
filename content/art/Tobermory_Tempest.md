@@ -1,5 +1,5 @@
 +++
-image = "oil_Tobermory_Tempest.jpg"
+image = "Tobermory_Tempest.jpg"
 title = "Tobermory_Tempest"
 weight = 1
 date = 2018-01-01

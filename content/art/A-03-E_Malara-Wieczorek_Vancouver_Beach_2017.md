@@ -1,5 +1,5 @@
 +++
-image = "A-03-E_Malara-Wieczorek_Vancouver_Beach_2017.jpg"
+image = "Vancouver_Beach.jpg"
 title = "Vancouver Beach"
 weight = 11
 date = 2018-02-12
