@@ -1,5 +1,5 @@
 +++
-image = "roses-and-peonies.jpg"
+image = "roses-peonies.jpg"
 title = "Roses and Peonies"
 weight = 5
 date = 2013-01-01

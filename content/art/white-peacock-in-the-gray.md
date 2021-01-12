@@ -1,5 +1,5 @@
 +++
-image = "white-peacock-in-the-gray.jpg"
+image = "white-peacock-gray.jpg"
 title = "White peacock in the gray"
 weight = 2
 date = 2020-01-26
