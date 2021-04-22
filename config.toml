@@ -1,4 +1,4 @@
-baseURL = "http://malara.ca/"
+baseURL = "https://malara.ca/"
 languageCode = "en-us"
 title = "Elizabeth Malara"
 theme = "Malara"
