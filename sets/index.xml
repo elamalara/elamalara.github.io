@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sets on Elizabeth Malara</title>
-    <link>http://malara.ca/sets/</link>
+    <link>https://malara.ca/sets/</link>
     <description>Recent content in Sets on Elizabeth Malara</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 Mar 2018 00:00:00 -0800</lastBuildDate>
     
-	<atom:link href="http://malara.ca/sets/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://malara.ca/sets/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Badlands</title>
-      <link>http://malara.ca/sets/badlands/</link>
+      <link>https://malara.ca/sets/badlands/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 -0800</pubDate>
       
-      <guid>http://malara.ca/sets/badlands/</guid>
+      <guid>https://malara.ca/sets/badlands/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Ruthven Park</title>
-      <link>http://malara.ca/sets/ruthven/</link>
+      <link>https://malara.ca/sets/ruthven/</link>
       <pubDate>Sun, 12 Feb 2017 00:00:00 -0800</pubDate>
       
-      <guid>http://malara.ca/sets/ruthven/</guid>
+      <guid>https://malara.ca/sets/ruthven/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beaver Valley</title>
-      <link>http://malara.ca/sets/beaver-valley/</link>
+      <link>https://malara.ca/sets/beaver-valley/</link>
       <pubDate>Sun, 12 Feb 2012 00:00:00 -0800</pubDate>
       
-      <guid>http://malara.ca/sets/beaver-valley/</guid>
+      <guid>https://malara.ca/sets/beaver-valley/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lakeshore Park</title>
-      <link>http://malara.ca/sets/in-the-park/</link>
+      <link>https://malara.ca/sets/in-the-park/</link>
       <pubDate>Sun, 12 Feb 2012 00:00:00 -0800</pubDate>
       
-      <guid>http://malara.ca/sets/in-the-park/</guid>
+      <guid>https://malara.ca/sets/in-the-park/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Before the Storm</title>
-      <link>http://malara.ca/sets/before-storm/</link>
+      <link>https://malara.ca/sets/before-storm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://malara.ca/sets/before-storm/</guid>
+      <guid>https://malara.ca/sets/before-storm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Polish Plainscape</title>
-      <link>http://malara.ca/sets/polish-plainscape/</link>
+      <link>https://malara.ca/sets/polish-plainscape/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://malara.ca/sets/polish-plainscape/</guid>
+      <guid>https://malara.ca/sets/polish-plainscape/</guid>
       <description></description>
     </item>
     
