@@ -1,0 +1,454 @@
+/* --- Global --- */
+
+body {
+    margin: 0;
+    font-size: 1.2em;
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a.match {
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- Header --- */
+
+header {
+    max-width: 935px;
+    margin: 1.5em auto 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#line1 {
+    margin-bottom: 1.5em;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#line1-left {
+    width: 160px;
+}
+
+@media (max-width: 440px) {
+    #line1-left {
+        width: 1em;
+    }   
+}
+
+#title {
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    font-kerning: normal;
+}
+
+#line1-right {
+    width: 160px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#line2 {
+    margin-bottom: 0.1em;
+}
+
+/* --- Header: menu contents --- */
+
+#menu-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#instagram-button {
+    position: relative;
+    width: 29px;
+    height: 29px;
+    margin-left: 0.1em;
+    margin-right: 0.5em;
+}
+
+#instagram-button > a {
+    display: block;
+    position: absolute;
+    top: 0.1em;
+}
+
+#instagram-button img {
+    width: 29px;
+    height: 29px;
+}
+
+#menu-buttons a {
+    font-size: 0.9em;
+    letter-spacing: -0.02em;
+    padding: 0.5em;
+}
+
+#menu-toggle-button {
+    /* inspired by https://codepen.io/erikterwan/pen/EVzeRP?editors=0100 */
+    display: none;
+    width: 80px;
+    height: 100%;
+    margin-right: 0em;
+    position: relative;
+    letter-spacing: 0.02em;
+}
+
+#menu-toggle-button span {
+    position: absolute;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+    text-align: center;
+    width: 80px;
+    top: 0.2em;
+}
+
+#menu-toggle-button input {
+    display: block;
+    width: 80px;
+    height: 29px;
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+    z-index: 2;
+}
+
+#menu-toggle-button input:checked ~ #mobile-buttons {
+    display: block;
+}
+
+#mobile-buttons {
+    position: absolute;
+    top: 44px;
+    right: 0px;
+    display: none;
+    z-index: 1;
+    background: #fff;
+    border: 1px solid #aaa;
+}
+
+#mobile-buttons div {
+    padding: 0.6em 1.2em 0.6em 2.2em;
+    border-bottom: 1px solid #ddd;
+    text-align: right;
+}
+
+@media (max-width: 935px) {
+    #menu-toggle-button {
+        display: block;
+    }
+    #menu-buttons {
+        display: none;
+    }
+    #line2 {
+        display: none;
+    }
+    #instagram-button {
+        margin-right: 1.2em;
+    }
+}
+
+/* --- Main content --- */
+
+#content {
+    max-width: 935px;
+    margin: 0 auto;
+}
+
+.mobile-breadcrumb {
+    display: none;
+
+    max-width: 610px;
+    margin: 2.4em auto 1.2em auto;
+
+    font-size: 1.2em;
+    font-weight: bold;
+    letter-spacing: -0.04em;
+    font-kerning: normal;
+}
+
+#intro {
+    max-width: 610px;
+    margin: 2.4em auto 1.2em auto;
+    line-height: 1.5em;
+}
+
+#intro > p + p {
+    text-indent: 1em;
+}
+
+#artlist {
+    margin: 2.4em auto 1.2em auto;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* A crude way to list items. We're not linking to this, but user can see it by entering a URL */
+#longlist {
+    width: 293px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+#longlist > article {
+    margin-bottom: 2em;
+}
+
+.art {
+    width: 293px;
+    height: 293px;
+    /* horizontal margin is taken care of by parent's justify-content: space-between */
+    margin-bottom: 28px;
+}
+
+.art img {
+    /* TODO: use thumbnail sized images */
+    width: 293px;
+    height: 293px;
+    object-fit: cover;
+}
+
+.art > .description {
+    display: none;
+}
+
+@media (max-width: 935px) {
+    #content {
+        margin: 0 0.5em;
+    }
+    .mobile-breadcrumb {
+        display: block;
+        margin: 1.5em auto 1em auto;
+    }
+    #intro {
+        margin: 1.5em auto 1em auto;
+    }
+    #homepage {
+        margin: 1.5em auto 1em auto;
+    }
+}
+
+@media (max-width: 935px) and (min-width: 725px) {
+    #artlist {
+        margin: 1.5em auto;
+        max-width: 702px;
+    }
+    .art {
+        width: 220px;
+        height: 220px;
+        margin-bottom: 21px;
+    }
+    .art img {
+        width: 220px;
+        height: 220px;
+    }
+}
+
+@media (max-width: 725px) and (min-width: 590px) {
+    #artlist {
+        margin: 1.5em auto;
+        max-width: 560px;
+    }
+    .art {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .art img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+/* if the 360 <= width <= 935, in landscape do this: */
+@media (max-width: 590px) and (min-width: 360px) {
+    body {
+        font-size: 1.2em;
+    }
+    #artlist {
+        margin: 1em auto;
+        width: 360px;
+    }
+    .art {
+        width: 110px;
+        height: 110px;
+        margin-bottom: 10px;
+    }
+    .art img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+/* Landscape iphone 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+}
+landscape google pixel
+and (device-width: 360px) */
+
+/* single column view for portrait devices with width <= 660px
+    and landscape devices with width < 360px */
+@media (max-width: 359px) {
+    body {
+        font-size: 0.9em;
+    }
+    /* single column of images */
+    #artlist {
+        margin: 1.5em 0.5em;
+
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .art {
+        width: auto;
+        height: auto;
+
+        margin-bottom: 2em;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        line-height: 1.5em;
+    }
+
+    .art img {
+        /* TODO: use thumbnail sized images */
+        width: 100%;
+        height: auto;
+    }
+
+    .art > .description {
+        display: block;
+    }
+}
+
+/* --- Main content: art detail -- */
+
+.description p {
+    max-width: 400px;
+    text-align: left;
+    margin: 0.6em 0;
+}
+
+.tags {
+    font-size: 0.9em;
+    letter-spacing: -0.02em;
+}
+
+.tags > span {
+    font-weight: bold;
+}
+
+.tags > span:not(:last-child) ::after {
+    content: ", ";
+}
+
+.title {
+    font-weight: bold;
+}
+
+#single {
+    margin: 2.4em 0 3em 0;
+}
+
+#single img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* --- Front page specific --- */
+
+#homepage-content {
+    margin: 2.4em 0 1.2em 0;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#introduction-image {
+    margin-top: 0.2em;
+    padding: 1px;
+    border: 1px solid;
+    border-color: #d1d3cc #c1c3bb #c1c3bb #d1d3cc;
+    width: 293px;
+    height: 293px;
+    margin-right: 28px;
+}
+
+#introduction-image > img {
+    width: 293px;
+    height: 293px;
+    object-fit: contain;
+}
+
+#homepage {
+    line-height: 1.5em;
+}
+
+#homepage > p:first-child {
+    margin: 0; /* we need the same margin as image */
+}
+
+#homepage > p + p {
+    text-indent: 1em;
+}
+
+@media (max-width: 700px) {
+    #homepage-content {
+        flex-direction: column;
+    }
+
+    #homepage {
+        margin: 1.5em 0 1em 0;
+    }
+
+    #introduction-image {
+        align-self: center;
+        margin-right: 0;
+        max-width: 80%;
+        height: auto;
+    }
+}
+
+/* --- Footer --- */
+
+footer {
+    padding-bottom: 0.1em;
+    margin: 1.5em 0.5em;
+}
+
+footer > .content {
+    max-width: 935px;
+    margin: 0 auto;
+    font-size: 0.9em;
+}
+
+/* EOM */
