@@ -1,4 +1,3 @@
-
 ---
 title: "Badlands"
 type: "pentaptych"

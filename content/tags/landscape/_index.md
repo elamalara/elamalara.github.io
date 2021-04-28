@@ -1,4 +1,3 @@
-
 ---
 title: Landscape
 weight: 21
