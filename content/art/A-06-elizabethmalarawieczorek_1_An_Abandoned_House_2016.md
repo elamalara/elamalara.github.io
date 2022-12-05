@@ -1,5 +1,5 @@
 +++
-image = "A-06-elizabethmalarawieczorek_1_An_Abandoned_House_2016.jpg"
+image = "emw_1_An_Abandoned_House_2016n.jpg"
 title = "An Abandoned House 2 - Halton"
 date = 2016-12-12
 weight = 5
