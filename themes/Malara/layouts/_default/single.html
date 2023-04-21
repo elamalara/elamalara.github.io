@@ -24,5 +24,10 @@
         </p>
     </div>
     {{ end }}
+    {{ if .Content }}
+    <div class="content">
+        {{.Content}}
+    </div>
+    {{ end }}
 </section>
 {{ end }}
