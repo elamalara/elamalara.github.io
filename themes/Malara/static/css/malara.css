@@ -373,6 +373,12 @@ and (device-width: 360px) */
     font-weight: bold;
 }
 
+.image-availability {
+    color: #922;
+    font-variant-caps: small-caps;
+    font-weight: bold;
+}
+
 #single {
     margin: 2.4em 0 3em 0;
 }
