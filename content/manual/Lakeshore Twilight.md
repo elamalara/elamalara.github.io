@@ -2,7 +2,7 @@
 image = "A-01-E_Malara-W_2_Lakeshore_2016.jpg"
 title = "Lakeshore Twilight"
 description = "Those artworks were selected to illustrate articles in magazine printed in DEL Art printshop."
-availability = "In private collection"
+sold = "In private collection"
 
 +++
 
