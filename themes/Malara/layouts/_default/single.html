@@ -7,7 +7,15 @@
     <div class="description">
         <p class="title">{{.title}}</p>
         <p class="image-description">{{.description}}</p>
-        <p class="image-availability">{{.availability}}</p>
+        
+        {{ if .availability }}
+            <p class="image-availability"><a href="{{.availabilityLink}}" target="_blank">{{.availability}}</a></p>
+        {{ end }}
+        
+        {{ if .sold }}
+            <p class="image-sold">{{.sold}}</p>
+        {{ end }}
+        
         {{ range .sets }}
             {{ $setName := . }}
             {{ with $.Site.GetPage (printf "/sets/%s" $setName) }}
