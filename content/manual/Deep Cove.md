@@ -3,7 +3,7 @@ image = "A-03-E_Malara-Wieczorek_Vancouver_Beach_2017.jpg"
 title = "Deep Cove"
 weight = 0
 description = "Kayaks on the shore of Deep Cove in North Vancouver"
-availability = "In private collection"
+sold = "In private collection"
 
 +++
 
