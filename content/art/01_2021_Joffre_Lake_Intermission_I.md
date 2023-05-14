@@ -1,5 +1,5 @@
 +++
-image = "Elizabeth_Malara_Joffre-Lake-Intermission-I_1500.jpg"
+image = "Joffre Lake Intermission 1.jpg"
 title = "Joffre Lake Intermission I"
 weight = 1
 date = 2021-04-27

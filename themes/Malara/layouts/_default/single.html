@@ -8,12 +8,12 @@
         <p class="title">{{.title}}</p>
         <p class="image-description">{{.description}}</p>
         
-        {{ if .availability }}
-            <p class="image-availability"><a href="{{.availabilityLink}}" target="_blank">{{.availability}}</a></p>
-        {{ end }}
-        
         {{ if .sold }}
             <p class="image-sold">{{.sold}}</p>
+        {{ end }}
+
+        {{ if .availability }}
+            <p class="image-availability"><a href="{{.availabilityLink}}" target="_blank">{{.availability}}</a></p>
         {{ end }}
         
         {{ range .sets }}
