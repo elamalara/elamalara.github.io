@@ -4,5 +4,5 @@ title = "Winter Field in Beaver Valley"
 weight = 0
 description = "2014, Acrylic on Gallery Canvas, 12\" x 12\""
 sold = "In private collection"
-tags = ["acrylic"]
+tags = ["_acrylic"]
 +++
