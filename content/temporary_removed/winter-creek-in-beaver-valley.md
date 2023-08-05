@@ -4,5 +4,5 @@ title = "Winter creek in Beaver Valley"
 weight = 15
 date = 2012-01-01
 description = ""
-tags = ["oil", "landscape"]
+tags = ["_oil", "_landscape"]
 +++

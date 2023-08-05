@@ -5,5 +5,5 @@ weight = 3
 date = 2014-01-01
 description = "2012, Oil on Canvas, 24\" x 30\""
 availability = ""
-tags = ["oil"]
+tags = ["_oil"]
 +++
