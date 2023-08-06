@@ -5,5 +5,5 @@ weight = 7
 date = 1990-01-01
 description = "Oil on canvas"
 availability = ""
-tags = ["archive", "featured", "stilllife"]
+tags = ["archive", "stilllife"]
 +++
