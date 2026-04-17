@@ -19,6 +19,6 @@ In `elamalara-gh-pages`, `git checkout gh-pages`. Upstream is `origin/gh-pages`
 ### Feature work
 Do feature work in the `elamalara-dev` folder.
 Use `hugo --minify` to generate content into the `elamalara-dev/public` folder.
-Commit changes and push into the `dev` branch.
+Commit changes and push into the `dev` branch. Take a note of the commit sha, you will use it where you see `$sha` in further instructions 
 Copy content of `dev\public` directory into the `elamalara-gh-pages` directory.
-Commit the updates and push into the `gh-pages` branch to update the website.
+Commit the updates with message `Update from $sha` and push into the `gh-pages` branch to update the website.
