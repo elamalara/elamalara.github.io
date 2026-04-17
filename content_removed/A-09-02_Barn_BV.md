@@ -5,6 +5,6 @@ weight = 60
 date = 2012-02-12
 description = "2012, Acrylic on Gallery Canvas, 12\" x 12\""
 availability = ""
-tags = ["_acrylic", "_landscape"]
+tags = ["acrylic", "landscape"]
 sets = ["beaver-valley"]
 +++

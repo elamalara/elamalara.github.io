@@ -4,5 +4,5 @@ title = "Sztola River National Park"
 weight = 0
 description = "National Park of Sztola River, Poland"
 availability = ""
-tags = ["_oil"]
+tags = ["oil"]
 +++

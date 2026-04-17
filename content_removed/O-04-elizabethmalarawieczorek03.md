@@ -5,5 +5,5 @@ weight = 9
 date = 2017-01-01
 description = ""
 availability = ""
-tags = ["_oil", "_landscape"]
+tags = ["oil", "landscape"]
 +++
