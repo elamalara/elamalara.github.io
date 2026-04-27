@@ -1,7 +1,7 @@
 +++
 image = "Tobermory_Tempest.jpg"
 title = "Tobermory Storm"
-weight = 1
+weight = 10
 date = 2018-01-01
 description = "Oil."
 sold = "In private collection"

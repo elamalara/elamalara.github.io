@@ -1,7 +1,7 @@
 +++
 image = "white-peacock-gray.jpg"
 title = "White peacock in the gray"
-weight = 2
+weight = 67
 date = 2020-01-26
 description = "2011, Acrylic on Canvas, 30\" x 40\""
 availability = ""

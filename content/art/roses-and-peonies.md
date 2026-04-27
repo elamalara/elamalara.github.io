@@ -1,7 +1,7 @@
 +++
 image = "roses-peonies.jpg"
 title = "Roses and Peonies"
-weight = 5
+weight = 50
 date = 2013-01-01
 description = "oil"
 availability = ""
