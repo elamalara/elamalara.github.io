@@ -1,7 +1,7 @@
 +++
 image = "Joffre Lake Intermission 5.jpg"
 title = "Joffre Lake Intermission V"
-weight = 1
+weight = 105
 date = 2020-01-27
 description = "2019, Oil on Gallery Canvas, 20\" x 30\""
 availability = "Purchase prints or original for $4,950"
