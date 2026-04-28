@@ -15,7 +15,7 @@
         <article class="art">
             {{ with .Params }}
             <div class="picture">
-                <a href="{{ $link }}">
+                <a href="{{ $link }}?from={{ $.Data.Term }}">
                     <img src="/thumbnails/{{- .image -}}" title="{{.title}}" />
                 </a>
             </div>

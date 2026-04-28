@@ -32,6 +32,36 @@
         {{end}}
         </p>
     </div>
+    {{ range .tags }}
+      {{ $tag := . }}
+      {{ $tagPages := index $.Site.Taxonomies.tags $tag }}
+      {{ $total := len $tagPages }}
+      {{ $prevURL := "" }}
+      {{ $nextURL := "" }}
+      {{ range $i, $wp := $tagPages }}
+        {{ if eq $wp.Page.RelPermalink $.RelPermalink }}
+          {{ if gt $i 0 }}
+            {{ $prevURL = printf "%s?from=%s" (index $tagPages (sub $i 1)).Page.Permalink $tag }}
+          {{ end }}
+          {{ if lt (add $i 1) $total }}
+            {{ $nextURL = printf "%s?from=%s" (index $tagPages (add $i 1)).Page.Permalink $tag }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+      {{ if or $prevURL $nextURL }}
+      <nav class="tag-nav" data-tag="{{ $tag }}" hidden>
+        {{ if $prevURL }}<a href="{{ $prevURL }}">← prev</a>{{ end }}
+        {{ if $nextURL }}<a href="{{ $nextURL }}">next →</a>{{ end }}
+      </nav>
+      {{ end }}
+    {{ end }}
+    <script>
+      const from = new URLSearchParams(location.search).get('from');
+      if (from) {
+        const nav = document.querySelector('.tag-nav[data-tag="' + from + '"]');
+        if (nav) nav.removeAttribute('hidden');
+      }
+    </script>
     {{ end }}
     {{ end }}
     {{ if .Content }}
