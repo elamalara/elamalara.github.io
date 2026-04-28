@@ -405,7 +405,7 @@ and (device-width: 360px) */
     display: inline-block;
 }
 
-.tag-nav {
+.tag-nav:not([hidden]) {
     position: absolute;
     inset: 0;
     display: flex;
